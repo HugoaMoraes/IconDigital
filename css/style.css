@@ -3,7 +3,7 @@
 :root {
   --vermelho: #D12824;
   --vermelhoescuro: #B8221F;
-  --vermelhao : #911B19;
+  --vermelhao: #911B19;
   --branco: #f7f7f7;
   --fullbranco: #fff;
   --cinzaclaro: #c7c7c7;
@@ -11,12 +11,12 @@
 
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 12px;
   border: 1px solid var(--cinzaclaro);
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: var(--vermelho);
   border-radius: 6px;
 }
@@ -30,6 +30,13 @@
 html {
   overflow-x: hidden;
 }
+
+/* ------------------------------------------------------------- */
+
+.dinamico{
+  list-style-type: none;
+}
+/* ------------------------------------------------------------- */
 
 .download-btn-first {
   background: var(--fullbranco);
@@ -55,6 +62,7 @@ html {
   height: 800px;
   width: 100%;
   background: url("../img/icon/banner.png") no-repeat center;
+  background-size: cover;
   border-radius: 0 0 50% 50% / 4%;
 }
 
@@ -470,7 +478,7 @@ html {
   width: 100%;
   height: 400px;
   padding: 70px;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .fh5co-reviews-outer .fh5co-reviews-inner {
@@ -508,6 +516,7 @@ html {
   width: 100%;
   height: 572px;
   background: url("../img/icon/bgfim.png") no-repeat center;
+  background-size: cover;
   margin-top: 120px;
   overflow-x: hidden;
 }
@@ -671,19 +680,7 @@ html {
                                        RESPONSIVE STYLING
   ========================================================================================================== */
 
-/* Esconder a div quando a largura da tela estiver entre 800px e 995px */
-@media screen and (min-width: 800px) and (max-width: 995px) {
-  .fh5co-hero-smartphone {
-    display: none;
-  }
-}
 
-/* Mostrar a div novamente quando a largura da tela for maior que 995px */
-@media screen and (min-width: 996px) {
-  .fh5co-hero-smartphone {
-    display: block;
-  }
-}
 
 
 
@@ -727,7 +724,7 @@ html {
   }
 
   #fh5co-hero-wrapper {
-    height: 95vh;
+    height: 800px;
   }
 
   .fh5co-hero-inner {
@@ -832,10 +829,12 @@ html {
   }
 
   .img-float-right {
+    max-width: 100%;
     float: none;
   }
 
   .img-float-left {
+    max-width: 100%;
     float: none;
   }
 
@@ -876,6 +875,14 @@ html {
     order: 2;
   }
 
+  .fh5co-features-grid-columns .in-order-7 {
+    order: 8;
+  }
+
+  .fh5co-features-grid-columns .in-order-8 {
+    order: 7;
+  }
+
   .fh5co-reviews-outer {
     padding: 0;
   }
@@ -906,6 +913,7 @@ html {
   }
 
   #fh5co-hero-wrapper {
+    background-size: cover;
     height: 800px;
   }
 

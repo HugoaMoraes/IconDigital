@@ -86,8 +86,8 @@
 			</nav>
 
 			<div class="container fh5co-hero-inner">
-				<h1 class="animated fadeIn wow" data-wow-delay="0.4s">Confira as vantagens do outsourcing para sua
-					empresa!</h1>
+				<h1 class="animated fadeIn wow" data-wow-delay="0.4s">Confira as vantagens do outsourcing <span
+						id="element"></span></h1>
 				<p class="animated fadeIn wow" data-wow-delay="0.67s">A Icon Digital oferece serviços completos de
 					outsourcing de impressão, PC as a Service, VoIP e gestão documental para ajudar a sua empresa a
 					alcançar eficiência e produtividade aprimoradas. </p>
@@ -103,7 +103,7 @@
 
 
 		<!-- ==========================================================================================================
-													 ADVANTAGES
+													 Serviços
 		 ========================================================================================================== -->
 
 		<div class="fh5co-advantages-outer" id="fh5co-advantages-outer">
@@ -192,7 +192,7 @@
 
 
 		<!-- ==========================================================================================================
-													  FEATURES
+													  QUADROS
 		 ========================================================================================================== -->
 
 		<div class="curved-bg-div wow animated fadeIn" data-wow-delay="0.15s"></div>
@@ -265,7 +265,6 @@
 						<span class="circle circle-middle"><i class="fas fa-phone"></i></i></span>
 						<span class="circle circle-last"><i class="fas fa-cloud"></i></i></span>
 					</div>
-
 					<div class="col-sm-6 in-order-8 wow animated fadeInRight" data-wow-delay="0.22s">
 						<img class="img-float-right" src="img/icon/Sobre/ServiçoVoIP.svg"
 							alt="Desenho de duas moças conversando por ligação">
@@ -303,7 +302,7 @@
 
 
 		<!-- ==========================================================================================================
-													  REVIEWS
+													  SOMOS
 		 ========================================================================================================== -->
 
 		<div id="fh5co-reviews" class="fh5co-reviews-outer">
@@ -341,7 +340,7 @@
 
 
 		<!-- ==========================================================================================================
-                                                 BOTTOM
+                                                 AREA CLIENTE
     ========================================================================================================== -->
 
 		<div id="fh5co-download" class="fh5co-bottom-outer">
@@ -350,7 +349,8 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<h1>Estamos mais que preparados para te atender!</h1>
-							<p>Abra seu chamado on-site via portal de serviços ou entre em contato via e-mail para tirar suas dúvidas, temos uma equipe especializada!</p>
+							<p>Abra seu chamado on-site via portal de serviços ou entre em contato via e-mail para tirar
+								suas dúvidas, temos uma equipe especializada!</p>
 
 							<button class="btn btn-md features-btn-first wow fadeInLeft animated" data-wow-delay="0.85s"
 								onclick="$('#fh5co-download').goTo();return false;">Abra seu Chamado</button>
@@ -364,7 +364,7 @@
 
 
 		<!-- ==========================================================================================================
-                                               SECTION 7 - SUB FOOTER
+                                                FOOTER
     ========================================================================================================== -->
 
 		<footer class="footer-outer">
@@ -428,6 +428,17 @@
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+	<script>
+		var typed = new Typed('#element', {
+			strings: ['para sua Empresa', 'para Escritórios', 'para o segmento de Saúde', 'para instituições Educacionais', 'para o setor Público', 'para empresas de Atacado e Varejo'],
+			typeSpeed: 80,
+			loop: true,
+			loopCount: Infinity,
+			backSpeed: 100,
+			showCursor: false,
+		});
+	</script>
 </body>
 
 </html>
