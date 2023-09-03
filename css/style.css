@@ -6,7 +6,8 @@
   --vermelhao: #911B19;
   --branco: #f7f7f7;
   --fullbranco: #fff;
-  --cinzaclaro: #c7c7c7;
+  --cinzaclaro: #878787;
+  --cinzamaiscalro: #ECECEC;
   --preto: #111;
 
 }
@@ -266,7 +267,7 @@ html {
   left: -100px;
   bottom: 250px;
   font-size: 60px;
-  color: #ececec;
+  color: var(--cinzamaiscalro);
 }
 
 .fh5co-slider-outer .carousel-right-arrow {
@@ -275,7 +276,7 @@ html {
   right: -100px;
   bottom: 250px;
   font-size: 60px;
-  color: #ececec;
+  color: var(--cinzamaiscalro);
 }
 
 .fh5co-slider-outer .item img {
@@ -413,7 +414,7 @@ html {
 
 .fh5co-features-outer .col-sm-6 .circle {
   color: #c3cfe5;
-  border: 1px solid #ededed;
+  border: 1px solid var(--cinzamaiscalro);
   background: var(--fullbranco);
   padding: 10px;
   width: 35px;
@@ -817,7 +818,7 @@ html {
     right: -70px;
     bottom: 250px;
     font-size: 60px;
-    color: #ececec;
+    color: var(--cinzamaiscalro);
   }
 
   .fh5co-slider-outer .carousel-left-arrow {
@@ -825,7 +826,7 @@ html {
     left: -70px;
     bottom: 250px;
     font-size: 60px;
-    color: #ececec;
+    color: var(--cinzamaiscalro);
   }
 
   .img-float-right {
