@@ -34,9 +34,10 @@ html {
 
 /* ------------------------------------------------------------- */
 
-.dinamico{
+.dinamico {
   list-style-type: none;
 }
+
 /* ------------------------------------------------------------- */
 
 .download-btn-first {
@@ -44,7 +45,7 @@ html {
 }
 
 .download-btn-first:hover {
-  background: var(--vermelho);
+  background: var(--vermelhao);
   color: var(--fullbranco) !important;
 }
 
@@ -81,11 +82,10 @@ html {
 
 .main-navbar-nav li {
   color: var(--fullbranco);
-  opacity: .7;
 }
 
 .main-navbar-nav .navbar-nav .nav-item a:hover {
-  color: var(--cinzaclaro) !important;
+  color: var(--vermelhao) !important;
   -webkit-transition: all .33s ease;
   -moz-transition: all .33s ease;
   -o-transition: all .33s ease;
@@ -115,7 +115,7 @@ html {
 }
 
 .social-icons-header a:hover i {
-  opacity: .6;
+  color: var(--vermelhao);
   -webkit-transition: all .2s ease;
   -moz-transition: all .2s ease;
   -o-transition: all .2s ease;
@@ -238,9 +238,11 @@ html {
    ========================================================================================================== */
 .fh5co-slider-outer {
   width: 100%;
+  height: 400px;
   height: auto;
-  padding: 70px;
+  padding: 0px 70px 0px 70px;
 }
+
 
 .fh5co-slider-outer h1 {
   color: var(--vermelho);
@@ -479,12 +481,17 @@ html {
   width: 100%;
   height: 400px;
   padding: 70px;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .fh5co-reviews-outer .fh5co-reviews-inner {
   margin-top: 100px;
 }
+
+.fh5co-reviews-inner {
+  padding: 70px;
+}
+
 
 .fh5co-reviews-outer>h1 {
   color: var(--vermelho);
@@ -518,7 +525,6 @@ html {
   height: 572px;
   background: url("../img/icon/bgfim.png") no-repeat center;
   background-size: cover;
-  margin-top: 120px;
   overflow-x: hidden;
 }
 
@@ -574,7 +580,7 @@ html {
 }
 
 .footer-outer .social-icons-footer a:hover i {
-  opacity: .6;
+  color: var(--vermelho);
   -webkit-transition: all .2s ease;
   -moz-transition: all .2s ease;
   -o-transition: all .2s ease;
@@ -622,7 +628,6 @@ html {
 
 .footer-outer .column-3-3 .social-icons-header a:hover {
   color: var(--fullbranco);
-  opacity: 1;
   -webkit-transition: color .2s ease;
   -o-transition: color .2s ease;
   transition: color .2s ease;
@@ -642,7 +647,7 @@ html {
 }
 
 .footer-outer .footer-nav ul li:hover {
-  color: var(--cinzaclaro);
+  color: var(--vermelho);
   -webkit-transition: color .2s ease-in-out;
   -o-transition: color .2s ease-in-out;
   transition: color .2s ease-in-out;
@@ -672,6 +677,7 @@ html {
   font-size: 13px;
   padding: 40px 0;
 }
+
 
 .google-play-btn {
   margin-left: 10px;
@@ -885,7 +891,7 @@ html {
   }
 
   .fh5co-reviews-outer {
-    padding: 0;
+    padding-top: 100px;
   }
 
   .navbar-light .navbar-toggler {
@@ -980,6 +986,8 @@ html {
 
   .fh5co-reviews-outer {
     height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .fh5co-reviews-outer .fh5co-reviews-inner {
@@ -1044,7 +1052,7 @@ html {
     height: 1px;
     width: 100%;
     margin: 0 auto;
-    border: 1px solid var(--vermelho);
+    border: 1px solid var(--vermelhao);
     display: block;
     margin-top: 100px;
   }
