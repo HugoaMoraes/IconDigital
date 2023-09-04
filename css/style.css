@@ -32,10 +32,22 @@ html {
   overflow-x: hidden;
 }
 
-/* ------------------------------------------------------------- */
+/* -----------------------NEW---------------------------------- */
 
 .dinamico {
   list-style-type: none;
+}
+
+.logoicon {
+  background: url("../img/icon/LogoIconDigital.svg")no-repeat center;
+  width: 100px;
+  height: 65px;
+}
+
+.logohugo {
+  background: url("../img/HByHugo.svg")no-repeat center;
+  width: 35px;
+  height: 35px;
 }
 
 /* ------------------------------------------------------------- */
