@@ -46,7 +46,7 @@ html {
 
 .logohugo {
   background: url("../img/HByHugo.svg")no-repeat center;
-  width: 35px;
+  width: 100%;
   height: 35px;
 }
 
