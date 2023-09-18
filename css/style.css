@@ -35,20 +35,22 @@ html {
 /* -----------------------NEW---------------------------------- */
 .wpp {
   position: fixed;
+  margin-top: 0px;
   bottom: 20px;
   right: 30px;
 }
 
-.instazinho{
+.instazinho {
   display: flex;
   justify-content: space-between;
   align-items: end;
 }
 
-.coricone{
+.coricone {
   color: var(--vermelho);
 }
-.coricone:hover{
+
+.coricone:hover {
   color: var(--vermelhao);
 }
 
@@ -210,10 +212,19 @@ html {
 										ADVANTAGES
    ========================================================================================================== */
 .fh5co-advantages-outer {
-  padding: 70px;
+  padding: 0px 70px;
   height: auto;
   width: 100%;
   overflow: hidden;
+}
+
+.marginpluscima{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.marginplusbaixo{
+  padding-bottom: 70px;
 }
 
 .fh5co-advantages-outer .span-perfect {
@@ -277,10 +288,6 @@ html {
    ========================================================================================================== */
 .bloco {
   margin-top: 70px;
-}
-
-.news {
-  padding-bottom: 140px;  
 }
 
 .card-text {
@@ -425,6 +432,10 @@ html {
   background-size: cover;
   width: 100%;
   height: 300px;
+}
+
+.curved-out {
+  transform: rotate(180deg);
 }
 
 .fh5co-features-outer {
