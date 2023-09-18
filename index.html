@@ -72,9 +72,6 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav nav-items-center ml-auto mr-auto">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
 							<a class="nav-link" href="#"
 								onclick="$('#fh5co-advantages-outer').goTo();return false;">Serviços</a>
 						</li>
@@ -86,6 +83,10 @@
 							<a class="nav-link" href="#" onclick="$('#fh5co-download').goTo();return false;">Área do
 								Cliente</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"
+								onclick="$('#fh5co-download').goTo();return false;">Tutoriais</a>
+						</li>
 					</ul>
 					<div class="social-icons-header">
 						<a href="https://www.facebook.com/people/icondigitalbrasilia/100069316981716/"
@@ -94,6 +95,8 @@
 								class="fab fa-instagram"></i></a>
 						<a href="https://www.linkedin.com/company/icon-digital-oficial/mycompany/" target="_blank"><i
 								class="fab fa-linkedin-in"></i></a>
+						<a href="https://www.youtube.com/channel/UC4EPdHuZDhnOLafqv19M6Kw/featured" target="_blank"><i
+								class="fab fa-youtube"></i></a>
 						<!-- <a href="https://api.whatsapp.com/send?phone=5561999285353" target="_blank"><i
 								class="fab fa-whatsapp"></i></a> -->
 
@@ -109,7 +112,7 @@
 					outsourcing de impressão, PC as a Service, VoIP e gestão documental para ajudar sua empresa a
 					alcançar eficiência e produtividade aprimoradas.</p>
 				<button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s"
-					onclick="$('#fh5co-download').goTo();return false;">Fale Conosco</button>
+					onclick="$('#fh5co-download').goTo();return false;">Fale com um Consultor</button>
 				<!-- <button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s" onclick="$('#fh5co-features').goTo();return false;">Features</button> -->
 				<img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/icon/Imp.svg"
 					alt="Smartphone">
@@ -124,63 +127,288 @@
 
 		<div class="fh5co-advantages-outer" id="fh5co-advantages-outer">
 			<div class="container">
-				<h1 class="second-title"><span class="span-perfect">Nossos principais</span> <span
-						class="span-features">Serviços</span></h1>
+				<h2 class="second-title"><span class="span-perfect">Nossos principais</span> <span
+						class="span-features">Serviços</span></h2>
 				<small>A Icon é especializada em outsourcing e assistência técnica especializada.</small>
 
 				<div class="row fh5co-advantages-grid-columns wow animated fadeIn" data-wow-delay="0.36s">
 
-					<div class="col-sm-4">
+					<div class="col-sm-4 marcacao" href="#" onclick="$('#outimpressao').goTo();return false;">
 						<img class="grid-image" src="img/icon/icones/print.svg" alt="Icone de uma impressora">
-						<h1 class="grid-title">Outsourcing</h1>
-						<p class="grid-desc">Outsourcing de impressão possibilita a terceirização do serviço de
+						<h3 class="grid-title">Outsourcing</h3>
+						<!-- <p class="grid-desc">Outsourcing de impressão possibilita a terceirização do serviço de
 							impressão para sua empresa, tendo como principal objetivo reduzir custos, monitoramento
-							ativo e controle de impressão através da locação.</p>
+							ativo e controle de impressão através da locação.</p> -->
 					</div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-4 marcacao" href="#" onclick="$('#pcasaserv').goTo();return false;">
 						<img class="grid-image" src="img/icon/icones/desktop.svg" alt="Icone de um computador desktop">
-						<h1 class="grid-title">PC as a Service</h1>
-						<p class="grid-desc">O modelo PC as a Service (PCaaS) é o aluguel de desktops e notebooks. Traz
+						<h3 class="grid-title">PC as a Service</h3>
+						<!-- <p class="grid-desc">O modelo PC as a Service (PCaaS) é o aluguel de desktops e notebooks. Traz
 							como vantagens à sua empresa o gerenciamento simplificado e principalmente flexibilidade na
-							quantidade de computadores conforme sua necessidade, entre outros benefícios. </p>
+							quantidade de computadores conforme sua necessidade, entre outros benefícios. </p> -->
 					</div>
 
-					<div class="col-sm-4">
-						<img class="grid-image" src="img/icon/icones/description.svg" alt="Icon-3">
-						<h1 class="grid-title">Gestão Documentos</h1>
-						<p class="grid-desc">BPM (Business Process Management), desenvolvido pela Arquivar possibilita a
+					<div class="col-sm-4 marcacao" href="#" onclick="$('#gestaodoc').goTo();return false;">
+						<img class="grid-image" src="img/icon/icones/description.svg" alt="Icon de um documento">
+						<h3 class="grid-title">Gestão Documentos</h3>
+						<!-- <p class="grid-desc">BPM (Business Process Management), desenvolvido pela Arquivar possibilita a
 							digitalização, gerenciamento e armazenamento de documentos importantes em um ambiente
-							virtual seguro, acessível apenas por usuários autorizados.</p>
+							virtual seguro, acessível apenas por usuários autorizados.</p> -->
 					</div>
 
-					<div class="col-sm-4">
-						<img class="grid-image" src="img/icon/icones/phone.svg" alt="Icon-2">
-						<h1 class="grid-title">Serviço VoIP</h1>
-						<p class="grid-desc">Unifique todas as comunicações da sua empresa com nossos serviços em nuvem:
+					<div class="col-sm-4 marcacao" href="#" onclick="$('#servoip').goTo();return false;">
+						<img class="grid-image" src="img/icon/icones/phone.svg" alt="Icone de um telefone">
+						<h3 class="grid-title">Serviço VoIP</h3>
+						<!-- <p class="grid-desc">Unifique todas as comunicações da sua empresa com nossos serviços em nuvem:
 							Telecomunicações em Nuvem, VoIP, Software de Call Center Omnichannel, Tronco SIP, PABX em
 							nuvem e muito mais.
-						</p>
+						</p> -->
 					</div>
 
-					<div class="col-sm-4">
-						<img class="grid-image" src="img/icon/icones/manage_accounts.svg" alt="Icon-3">
-						<h1 class="grid-title">Assistência Técnica</h1>
-						<p class="grid-desc">
+					<div class="col-sm-4 marcacao" href="#" onclick="$('#assistec').goTo();return false;">
+						<img class="grid-image" src="img/icon/icones/manage_accounts.svg" alt="Icone de um tecnico">
+						<h3 class="grid-title">Assistência Técnica</h3>
+						<!-- <p class="grid-desc">
 							Nossa equipe técnica especializada fornece peças, placas e suprimentos dos equipamentos
 							instalados, exceto papel. As peças e placas serão substituídas sem custo, desde que não
 							caracterize necessidade de substituição por mau uso.
-						</p>
+						</p> -->
 					</div>
 
 					<div class="col-sm-4">
-						<img class="grid-image" src="img/icon/icones/more_vert.svg" alt="Icon-3">
-						<h1 class="grid-title">Outros</h1>
-						<p class="grid-desc">A Icon Digital tem uma gama de serviços completos à sua disposição.
-						</p>
+						<img class="grid-image" src="img/icon/icones/more_vert.svg" alt="Icone ...">
+						<h3 class="grid-title">Outros</h3>
+						<!-- <p class="grid-desc">A Icon Digital tem uma gama de serviços completos à sua disposição.
+						</p> -->
 					</div>
 
 				</div>
+			</div>
+		</div>
+
+		<!-- ==========================================================================================================
+													 NEWS
+		 ========================================================================================================== -->
+
+		<div class="fh5co-advantages-outer news">
+			<div class="container wow fadeInLeft animated" data-wow-delay="0.85s">
+				<h2 class="second-title"><span class="span-perfect">Confira as principais Novidades</span> <span
+						class="span-features">Veja</span></h2>
+				<small>Queremos te deixar atualizado diariamente sobre o mundo do outsourcinge as novidades sobre esse
+					segmento da tecnologia. <b>Veja nossa newsletter a baixo:</b></small>
+
+				<div class="container-fluid bloco wow fadeInLeft animated" data-wow-delay="1.0s">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner row w-100 mx-auto">
+
+							<div class="carousel-item col-md-4 active">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="img/news/Dia-do-Cliente.png"
+										alt="imagem de duas mão se apertando">
+									<div class="card-body">
+										<h4 class="card-title">Dia do Cliente</h4>
+										<p class="card-text">🎉🥳 Clientes da Icon Digital! Queremos agradecer por
+											escolherem a nossa família para fazer parte da jornada de vocês.
+										</p>
+										<div class="instazinho">
+											<p class="card-text"><small class="text-muted">Publicado: 15 - Outubro -
+													2023</small>
+											</p>
+											<div>
+												<a href="https://instagram.com/icondigital.com.br" target="_blank"><i
+														class="fab fa-instagram coricone"></i></a>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel-item col-md-4">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="img/news/Qualidade.png"
+										alt="desenho de duas moças impressionada com a qualidade da impressão">
+									<div class="card-body">
+										<h4 class="card-title">Qualidade</h4>
+										<p class="card-text">🖨️✨ A primeira impressão conta, e a qualidade da sua
+											impressão reflete diretamente na imagem da sua empresa.
+										</p>
+										<div class="instazinho">
+											<p class="card-text"><small class="text-muted">Publicado: 8 - Setembro -
+													2023</small>
+											</p>
+											<div>
+												<a href="https://instagram.com/icondigital.com.br" target="_blank"><i
+														class="fab fa-instagram coricone"></i></a>
+												<a href="https://www.linkedin.com/company/icon-digital-oficial/mycompany/"
+													target="_blank"><i class="fab fa-linkedin-in coricone"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel-item col-md-4">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="img/news/Dicas.png"
+										alt="desenho de uma equipe criativa">
+									<div class="card-body">
+										<h4 class="card-title">Dicas</h4>
+										<p class="card-text">🖨️Otimizando o Desempenho da Sua Impressora com 5 Dicas
+											Criativas: Escolha Papéis de Qualidade, Limpeza Regular é Essencial
+										</p>
+										<div class="instazinho">
+											<p class="card-text"><small class="text-muted">Publicado: 30 - Agosto -
+													2023</small>
+											</p>
+											<div>
+												<a href="https://instagram.com/icondigital.com.br" target="_blank"><i
+														class="fab fa-instagram coricone"></i></a>
+												<a href="https://www.linkedin.com/company/icon-digital-oficial/mycompany/"
+													target="_blank"><i class="fab fa-linkedin-in coricone"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel-item col-md-4">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="img/news/IA.png"
+										alt="desenho de uma moça mexendo em um computador e um robo de inteligência artificial do lado">
+									<div class="card-body">
+										<h4 class="card-title">IA</h4>
+										<p class="card-text">Você já parou para pensar em como a inteligência artificial
+											tem revolucionado até mesmo a forma como imprimimos ?
+										</p>
+										<div class="instazinho">
+											<p class="card-text"><small class="text-muted">Publicado: 24 - Agosto -
+													2023</small>
+											</p>
+											<div>
+												<a href="https://instagram.com/icondigital.com.br" target="_blank"><i
+														class="fab fa-instagram coricone"></i></a>
+												<a href="https://www.linkedin.com/company/icon-digital-oficial/mycompany/"
+													target="_blank"><i class="fab fa-linkedin-in coricone"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel-item col-md-4">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="img/news/Educação.png"
+										alt="desenho de um rapaz mexendo em um papel antido e logo na frente uma moça mexendo em uma multifuncional">
+									<div class="card-body">
+										<h4 class="card-title">Analógica ao Digital</h4>
+										<p class="card-text">🚀 Prepare-se para uma viagem no tempo da tecnologia! As
+											impressoras passaram por uma transformação surpreendente da era analógica
+											ao futuro digital!
+										</p>
+										<div class="instazinho">
+											<p class="card-text"><small class="text-muted">Publicado: 16 - Agosto -
+													2023</small>
+											</p>
+											<div>
+												<a href="https://instagram.com/icondigital.com.br" target="_blank"><i
+														class="fab fa-instagram coricone"></i></a>
+												<a href="https://www.linkedin.com/company/icon-digital-oficial/mycompany/"
+													target="_blank"><i class="fab fa-linkedin-in coricone"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel-item col-md-4">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="img/news/Dia-dos-Pais_2.png"
+										alt="Imagem de um pai e uma filha se abraçando">
+									<div class="card-body">
+										<h4 class="card-title">Dia dos Pais</h4>
+										<p class="card-text">A equipe da Icon Digital se une para homenagear todos os
+											pais neste dia tão especial! Que esta data seja marcada por sorrisos,
+											abraços e memórias preciosas. Feliz Dia dos Pais! 🌟
+										</p>
+										<div class="instazinho">
+											<p class="card-text"><small class="text-muted">Publicado: 13 - Agosto -
+													2023</small>
+											</p>
+											<div>
+												<a href="https://instagram.com/icondigital.com.br" target="_blank"><i
+														class="fab fa-instagram coricone"></i></a>
+												<a href="https://www.linkedin.com/company/icon-digital-oficial/mycompany/"
+													target="_blank"><i class="fab fa-linkedin-in coricone"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel-item col-md-4">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="img/news/PRATICIDADE.png"
+										alt="desenhdo de uma moça sentada em uma impressora mexendo em um computador">
+									<div class="card-body">
+										<h4 class="card-title">Praticidade</h4>
+										<p class="card-text">🖨️📚 Simplifique sua vida no escritório com uma
+											impressora multifuncional. 🏢✂️ Imprima, copie e digitalize com facilidade e
+											qualidade.
+										</p>
+										<div class="instazinho">
+											<p class="card-text"><small class="text-muted">Publicado: 2 - Agosto -
+													2023</small>
+											</p>
+											<div>
+												<a href="https://instagram.com/icondigital.com.br" target="_blank"><i
+														class="fab fa-instagram coricone"></i></a>
+												<a href="https://www.linkedin.com/company/icon-digital-oficial/mycompany/"
+													target="_blank"><i class="fab fa-linkedin-in coricone"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel-item col-md-4">
+								<div class="card">
+									<img class="card-img-top img-fluid" src="img/news/Atolamento-HP.png"
+										alt="Thumbnail do Youtube referente a impressora HP E52645">
+									<div class="card-body">
+										<h4 class="card-title">Atolamento E52645</h4>
+										<p class="card-text">Imprime 45 páginas por minuto (ppm) em papel Carta e 43 ppm
+											em papel tamanho A4;
+											Impressão USB; Bandeja 1 (capacidade para 100 folhas)
+										</p>
+										<div class="instazinho">
+											<p class="card-text"><small class="text-muted">Publicado: 20 - Julho -
+													2022</small>
+											</p>
+											<div>
+												<a href="https://youtu.be/chyJbHOsGTM?si=pVek67gL7PpWSv84"
+													target="_blank"><i class="fab fa-youtube coricone"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Antes</span>
+						</a>
+						<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Próximo</span>
+						</a>
+					</div>
+				</div>
+
+
+
 			</div>
 		</div>
 
@@ -189,17 +417,20 @@
 		 ========================================================================================================== -->
 
 		<div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
-			<h1>Representante Autorizado</h1>
+			<h2>Representante Autorizado</h2>
 			<small>Temos parceria com os principais fabricantes do mundo.</small>
 			<div class="container fh5co-slider-inner">
 
 				<div class="owl-carousel owl-theme">
 
 					<div class="item"><img src="img/icon/Parceiros/HP.svg" alt="Logo HP"></div>
-					<div class="item"><img src="img/icon/Parceiros/Brother.svg" alt="Logo  HP"></div>
+					<div class="item"><img src="img/icon/Parceiros/Brother.svg" alt="Logo  Brother"></div>
 					<div class="item"><img src="img/icon/Parceiros/Xerox.svg" alt="Logo Xerox"></div>
 					<div class="item"><img src="img/icon/Parceiros/Kyocera.svg" alt="Logo Kyocera"></div>
 					<div class="item"><img src="img/icon/Parceiros/Oki.svg" alt="Logo Oki"></div>
+					<div class="item"><img src="img/icon/Parceiros/Arquivar.svg" alt="Logo Arquivar"></div>
+					<div class="item"><img src="img/icon/Parceiros/Net2Phone.svg" alt="Logo Net2Phone"></div>
+					<div class="item"><img src="img/icon/Parceiros/FSRental.svg" alt="Logo FSRental"></div>
 
 				</div>
 
@@ -228,7 +459,7 @@
 
 				<div class="row fh5co-features-grid-columns">
 
-					<div class="col-sm-6 in-order-1 wow animated fadeInLeft" data-wow-delay="0.22s">
+					<div class="col-sm-6 in-order-1 wow animated fadeInLeft" data-wow-delay="0.22s" id="outimpressao">
 						<div class="col-sm-image-container">
 							<img class="img-float-left" src="img/icon/Sobre/OutsourcingDeImpressão.svg"
 								alt="imagem de uma multifuncional com alguns papeis do lado">
@@ -238,9 +469,9 @@
 					</div>
 
 					<div class="col-sm-6 in-order-2 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
-						<h1>Outsourcing de Impressão</h1>
+						<h2>Outsourcing de Impressão</h2>
 						<p>O principal objetivo de uma empresa ao contratar o serviço de outsourcing de impressão é a
-							redução e controle dos custos com impressão.
+							<b>redução e controle dos custos com impressão</b>.
 							Porém, inúmeros outros objetivos podem ser alcançados
 						</p>
 						<span class="circle circle-first"><i class="fas fa-print"></i></i></span>
@@ -249,21 +480,27 @@
 					</div>
 
 					<div class="col-sm-6 in-order-3 sm-6-content wow animated fadeInLeft" data-wow-delay="0.22s">
-						<h1>PC as a Service</h1>
-						<p>O modelo PC as a Service (PCaaS)é basicamente o aluguel de equipamentos, como desktops e
-							notebooks.
+						<h2>PC as a Service</h2>
+						<p>Trata-se de terceirizar equipamentos de última geração para
+							<b>evitar o alto investimento no custo de aquisição e manutenção
+								dos aparelhos</b>.
+							Esse modelo de negócio promove o “aluguel” dos computadores,
+							impressoras e derivados. Dessa forma, em vez de comprar um
+							determinado número de equipamentos, basta contratar esse
+							tipo de serviço e pagar uma quantia mensal determinada em
+							contrato.
 						</p>
 						<span class="circle circle-first"><i class="fas fa-desktop"></i></i></span>
 						<span class="circle circle-middle"><i class="fas fa-laptop"></i></i></span>
 						<span class="circle circle-last"><i class="fas fa-tablet"></i></i></span>
 					</div>
 
-					<div class="col-sm-6 in-order-4 wow animated fadeInRight" data-wow-delay="0.22s">
+					<div class="col-sm-6 in-order-4 wow animated fadeInRight" data-wow-delay="0.22s" id="pcasaserv">
 						<img class="img-float-right" src="img/icon/Sobre/PCasaService.svg"
 							alt="Desenho de uma moça apresentando um notebook e suas funcionalidades">
 					</div>
 
-					<div class="col-sm-6 in-order-5 wow animated fadeInLeft" data-wow-delay="0.22s">
+					<div class="col-sm-6 in-order-5 wow animated fadeInLeft" data-wow-delay="0.22s" id="gestaodoc">
 						<div class="col-sm-image-container">
 							<img class="img-float-left" src="img/icon/Sobre/GestãoDocumentos.svg"
 								alt="Desenho de uma moça procurando dosumentos em uma pasta gigante">
@@ -272,10 +509,10 @@
 						</div>
 					</div>
 					<div class="col-sm-6 in-order-6 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
-						<h1>Gestão Documentos</h1>
-						<p>BPM (Business Process Management), desenvolvido pela Arquivar que possibilita a
-							digitalização, gerenciamento e armazenamento de documentos importantes em um ambiente
-							virtual seguro, acessível apenas por usuários autorizados.
+						<h2>Gestão Documentos</h2>
+						<p>BPM (Business Process Management), desenvolvido pela Arquivar que <b>possibilita a
+								digitalização, gerenciamento e armazenamento de documentos importantes em um ambiente
+								virtual seguro</b>, acessível apenas por usuários autorizados.
 						</p>
 						<span class="circle circle-first"><i class="fas fa-folder-open"></i></span>
 						<span class="circle circle-middle"><i class="fas fa-paperclip"></i></i></span>
@@ -284,32 +521,35 @@
 					</div>
 
 					<div class="col-sm-6 in-order-7  sm-6-content wow animated fadeInLeft" data-wow-delay="0.22s">
-						<h1>Serviço VoIP</h1>
-						<p>Unifique todas as comunicações da sua empresa com nossos serviços em nuvem: Telecomunicações
+						<h2>Serviço VoIP</h2>
+						<p><b>Unifique todas as comunicações da sua empresa com nossos serviços em nuvem:</b>
+							Telecomunicações
 							em Nuvem, VoIP, Software de Call Center Omnichannel, Tronco SIP, PABX em nuvem e muito mais.
 						</p>
 						<span class="circle circle-first"><i class="fas fa-mobile"></i></i></span>
 						<span class="circle circle-middle"><i class="fas fa-phone"></i></i></span>
 						<span class="circle circle-last"><i class="fas fa-cloud"></i></i></span>
 					</div>
-					<div class="col-sm-6 in-order-8 wow animated fadeInRight" data-wow-delay="0.22s">
+					<div class="col-sm-6 in-order-8 wow animated fadeInRight" data-wow-delay="0.22s" id="servoip">
 						<img class="img-float-right" src="img/icon/Sobre/ServiçoVoIP.svg"
 							alt="Desenho de duas moças conversando por ligação">
 					</div>
 
-					<div class="col-sm-6 in-order-9 wow animated fadeInLeft" data-wow-delay="0.22s">
+					<div class="col-sm-6 in-order-9 wow animated fadeInLeft" data-wow-delay="0.22s" id="assistec">
 						<div class="col-sm-image-container">
-							<img class="img-float-left" src="img/icon/Sobre/AssistênciaTécnica.svg"
+							<img class="img-float-left" src="img/icon/Sobre/AssistênciaTécnica.svg"
 								alt="Desenho de um homem e uma mulher na escada prastando suporte tecnico">
 							<span class="span-new">⚙</span>
 							<span class="span-free">🖨</span>
 						</div>
 					</div>
 					<div class="col-sm-6 in-order-10 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
-						<h1>Assistência Técnica</h1>
+						<h2>Assistência Técnica</h2>
 						<p>Assistência completa pela nossa equipe técnica contemplando peças, placas e todos os
-							suprimentos dos equipamentos instalados, exceto papel. As peças e placas serão substituídas
-							sem qualquer custo, desde que não fique caracterizada a necessidade de substituição por mau
+							suprimentos dos equipamentos instalados, exceto papel. <b>As peças e placas serão
+								substituídas
+								sem qualquer custo</b>, desde que não fique caracterizada a necessidade de substituição
+							por mau
 							uso.
 						</p>
 						<span class="circle circle-first"><i class="fas fa-cogs"></i></span>
@@ -332,16 +572,19 @@
 		 ========================================================================================================== -->
 
 		<div id="fh5co-reviews" class="fh5co-reviews-outer animated fadeIn" data-wow-delay="0.56s">
-			<h1>Quem Somos</h1>
-			<small>A ICON DIGITAL é uma empresa de tecnologia da informação com atuação desde 1999.
+			<h2>Quem Somos</h2>
+			<small>A <b>ICON DIGITAL</b> é uma empresa de tecnologia da informação com atuação desde <b>1999</b>.
 				Apaixonada por seus clientes, é especializada em outsourcing de impressão, notebooks e no gerenciamento
-				eletrônico de documentos, representante autorizado da Xerox, HP, Brother, Kyocera, OKI e parceira do
-				Grupo Arquivar. Oferecemos o que há de mais modernos em equipamentos, softwares de gestão e controle dos
+				eletrônico de documentos, <b>representante autorizado da Xerox, HP, Brother, Kyocera, OKI e parceira do
+					Grupo Arquivar</b>. Oferecemos o que há de mais modernos em equipamentos, softwares de gestão e
+				controle dos
 				serviços e ativos, além de um sistema completo de gestão de documentos ArqGed que vai desde a guarda
-				física de documentos até a assinatura digital. Possuímos atuação em todos os estados brasileiros com
-				mais de 10.000 equipamentos locados. Ao longo de mais de duas décadas de atuação, a ICON DIGITAL investe
-				sempre na busca por novas tecnologias, produtos e softwares, garantindo agilidade e ampliando o
-				resultado de seus clientes nos segmentos privados e governamentais.</small>
+				física de documentos até a assinatura digital. Possuímos <b>atuação em todos os estados brasileiros</b>
+				com
+				<b>mais de 10.000 equipamentos locados</b>. Ao longo de mais de duas décadas de atuação, a ICON DIGITAL
+				investe
+				sempre na busca por novas tecnologias, produtos e softwares, garantindo agilidade e <b>ampliando o
+					resultado de seus clientes nos segmentos privados e governamentais</b>.</small>
 		</div>
 
 		<!-- ==========================================================================================================
@@ -349,7 +592,7 @@
 		 ========================================================================================================== -->
 
 		<div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
-			<h1>Quem confia na icon digital</h1>
+			<h2>Quem confia na icon digital</h2>
 			<small>Já ajudamos muitas empresas a reduzir custos e melhorar o processo de impressão e organização,
 				através do outsourcing e gestão inteligente dos documentos. Confira alguns dos nossos grandes
 				parceiros:</small>
@@ -357,15 +600,15 @@
 
 				<div class="owl-carousel owl-theme">
 
-					<div class="item"><img src="img/icon/Clientes/ANM.svg" alt="Logo HP"></div>
-					<div class="item"><img src="img/icon/Clientes/Anvisa.svg" alt="Logo  HP"></div>
-					<div class="item"><img src="img/icon/Clientes/Brasal.svg" alt="Logo Xerox"></div>
-					<div class="item"><img src="img/icon/Clientes/Cassi.svg" alt="Logo Kyocera"></div>
-					<div class="item"><img src="img/icon/Clientes/PF.svg" alt="Logo Oki"></div>
-					<div class="item"><img src="img/icon/Clientes/Record.svg" alt="Logo  HP"></div>
-					<div class="item"><img src="img/icon/Clientes/Saga.svg" alt="Logo Xerox"></div>
-					<div class="item"><img src="img/icon/Clientes/Sabin.svg" alt="Logo Kyocera"></div>
-					<div class="item"><img src="img/icon/Clientes/UCB.svg" alt="Logo Oki"></div>
+					<div class="item"><img src="img/icon/Clientes/ANM.svg" alt="Logo ANM"></div>
+					<div class="item"><img src="img/icon/Clientes/Anvisa.svg" alt="Logo  Anvisa"></div>
+					<div class="item"><img src="img/icon/Clientes/Brasal.svg" alt="Logo Brasal"></div>
+					<div class="item"><img src="img/icon/Clientes/Cassi.svg" alt="Logo Cassi"></div>
+					<div class="item"><img src="img/icon/Clientes/PF.svg" alt="Logo Policia Federal"></div>
+					<div class="item"><img src="img/icon/Clientes/Record.svg" alt="Logo Rede Record"></div>
+					<div class="item"><img src="img/icon/Clientes/Saga.svg" alt="Logo Saga"></div>
+					<div class="item"><img src="img/icon/Clientes/Sabin.svg" alt="Logo Sabin"></div>
+					<div class="item"><img src="img/icon/Clientes/UCB.svg" alt="Logo UCB"></div>
 
 				</div>
 
@@ -379,18 +622,18 @@
 		<div class="fh5co-reviews-inner">
 			<div class="row justify-content-center">
 				<div class="col-sm-5 wow fadeIn animated" data-wow-delay="0.25s">
-					<img class="float-left" src="img/icon/quotes-1.png" alt="Quote 1">
+					<img class="float-left" src="img/icon/quotes-1.png" alt="Aspas 1">
 					<p class="testimonial-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
 						similique quasi.</p>
 					<small class="testimonial-author">John Doe</small>
-					<img class="float-right" src="img/icon/quotes-2.png" alt="Quote 2">
+					<img class="float-right" src="img/icon/quotes-2.png" alt="Aspas 2">
 				</div>
 				<div class="col-sm-5 testimonial-2 wow fadeIn animated" data-wow-delay="0.67s">
-					<img class="float-left" src="img/icon/quotes-1.png" alt="Quote 1">
+					<img class="float-left" src="img/icon/quotes-1.png" alt="Aspas 1">
 					<p class="testimonial-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
 						similique quasi.</p>
 					<small class="testimonial-author">Someone</small>
-					<img class="float-right" src="img/icon/quotes-2.png" alt="Quote 2">
+					<img class="float-right" src="img/icon/quotes-2.png" alt="Aspas 2">
 				</div>
 			</div>
 
@@ -405,14 +648,14 @@
 				<div class="container fh5co-bottom-inner">
 					<div class="row">
 						<div class="col-sm-6">
-							<h1>ESTAMOS ANSIOSOS PARA TE ATENDER!</h1>
+							<h2>ESTAMOS ANSIOSOS PARA TE ATENDER!</h2>
 							<p>Abra seu chamado on-site via portal de serviços ou em caso dúvida entre em contato via
 								e-mail, temos uma equipe especializada à sua espera!</p>
 
 							<a class="btn btn-md features-btn-first wow fadeInLeft animated" data-wow-delay="0.85s"
 								href="https://psfx.com.br/pws/index.php/pws" target="_blank">Abra seu Chamado</a>
 							<button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s"
-								onclick="$('#fh5co-features').goTo();return false;">E-mail</button>
+								onclick="$('#').goTo();return false;">Solicite seu Suprimento</button>
 						</div>
 					</div>
 				</div>
@@ -443,6 +686,9 @@
 								</a>
 								<a href="#" onclick="$('#fh5co-download').goTo();return false;">
 									<li class="active">Área do Cliente</li>
+								</a>
+								<a href="#" onclick="$('#').goTo();return false;">
+									<li class="active">Tutoriais</li>
 								</a>
 								<a href="#" onclick="$('#').goTo();return false;">
 									<li class="active">Área Tecnica</li>
@@ -483,6 +729,7 @@
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/carousel.js"></script>
 	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 	<script>
 		var typed = new Typed('#element', {
