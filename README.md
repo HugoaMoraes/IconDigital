@@ -11,7 +11,7 @@ Projeto do site Icon Digital uma empressa de Outsourcing de Impressão e Tecnolo
 
 ## Versão
 
-`v.1.8` em constates atualizações.
+`v.1.7.2` em constates atualizações.
 
 ## Links
 
@@ -22,10 +22,10 @@ Projeto do site Icon Digital uma empressa de Outsourcing de Impressão e Tecnolo
 
 | Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
-| Cor exemplo       | ![#D12824](https://via.placeholder.com/10/D12824?text=+) #D12824 |
-| Cor exemplo       | ![#B8221F](https://via.placeholder.com/10/B8221F?text=+) #B8221F |
-| Cor exemplo       | ![#f7f7f7](https://via.placeholder.com/10/f7f7f7?text=+) #f7f7f7 |
-| Cor exemplo       | ![#878787](https://via.placeholder.com/10/878787?text=+) #878787 |
+| Cor Primária       | ![#D12824](https://via.placeholder.com/10/D12824?text=+) #D12824 |
+| Cor Escura       | ![#B8221F](https://via.placeholder.com/10/B8221F?text=+) #B8221F |
+| Cor Secundária       | ![#f7f7f7](https://via.placeholder.com/10/f7f7f7?text=+) #f7f7f7 |
+| Cor Terciária       | ![#878787](https://via.placeholder.com/10/878787?text=+) #878787 |
 
 
 

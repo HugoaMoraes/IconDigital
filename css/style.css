@@ -9,7 +9,6 @@
   --cinzaclaro: #878787;
   --cinzamaiscalro: #ECECEC;
   --preto: #111;
-
 }
 
 ::-webkit-scrollbar {
@@ -33,12 +32,14 @@ html {
 }
 
 /* -----------------------NEW---------------------------------- */
+
 .wpp {
   position: fixed;
   margin-top: 0px;
   bottom: 20px;
   right: 30px;
 }
+
 
 .instazinho {
   display: flex;
@@ -93,6 +94,7 @@ html {
   background: var(--vermelho);
   color: var(--fullbranco);
   font-weight: 700;
+  margin: 5px 5px 5px 0px;
 }
 
 .features-btn-first:hover {
@@ -212,18 +214,18 @@ html {
 										ADVANTAGES
    ========================================================================================================== */
 .fh5co-advantages-outer {
-  padding: 0px 70px;
+  padding: 0px;
   height: auto;
   width: 100%;
   overflow: hidden;
 }
 
-.marginpluscima{
+.marginpluscima {
   padding-top: 70px;
   padding-bottom: 70px;
 }
 
-.marginplusbaixo{
+.marginplusbaixo {
   padding-bottom: 70px;
 }
 
@@ -687,6 +689,7 @@ html {
 .fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 img {
   margin-top: 25px;
 }
+
 
 /* ==========================================================================================================
 										SUB FOOTER
