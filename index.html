@@ -112,7 +112,7 @@
 					outsourcing de impressão, PC as a Service, VoIP e gestão documental para ajudar sua empresa a
 					alcançar eficiência e produtividade aprimoradas.</p>
 				<button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s"
-					onclick="$('#fh5co-download').goTo();return false;">Fale com um Consultor</button>
+					data-bs-toggle="modal" data-bs-target="#modal-1">Fale com um Consultor</button>
 				<!-- <button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s"
 					onclick="$('#fh5co-features').goTo();return false;">Features</button> -->
 				<img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/icon/Imp.svg"
@@ -199,14 +199,14 @@
 		 ========================================================================================================== -->
 
 		<div class="fh5co-advantages-outer marginplusbaixo">
-			<div class="container wow fadeInLeft animated" data-wow-delay="0.85s">
+			<div class="container p-0 wow fadeInLeft animated" data-wow-delay="0.85s">
 				<h2 class="second-title"><span class="span-perfect">Confira as principais Novidades na nossa</span>
 					<span class="span-features">Newsletter</span>
 				</h2>
 				<small>Queremos te deixar atualizado diariamente sobre o mundo do outsourcing, veja as novidades e
 					vantagens sobre o segmento que mais cresce da tecnologia. <b>Aqui:</b></small>
 
-				<div class="container-fluid bloco wow fadeInLeft animated" data-wow-delay="1.0s">
+				<div class="container-fluid p-0 bloco wow fadeInLeft animated " data-wow-delay="1.0s">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 
 						<div class="carousel-inner row w-100 p-0 mx-auto">
@@ -605,11 +605,11 @@
 
 		<div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
 			<h2>Confiamos na Icon</h2>
-			<small class="container p-0">Já ajudamos muitas empresas a reduzir custos e melhorar o processo de impressão
-				e organização,
+			<small class="container">Já ajudamos muitas empresas a <b>reduzir custos e melhorar o processo de impressão
+					e organização</b>,
 				através do outsourcing e gestão inteligente dos documentos. Confira alguns dos nossos grandes
 				parceiros:</small>
-			<div class="container fh5co-slider-inner">
+			<div class="fh5co-slider-inner">
 
 				<div class="owl-carousel owl-theme">
 
@@ -744,6 +744,26 @@
 				</div>
 			</div>
 		</footer>
+
+		<!-- ...Modais... -->
+
+		<div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						...
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 	</div> <!-- main page wrapper -->
 
