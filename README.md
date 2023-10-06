@@ -11,7 +11,7 @@ Projeto do site Icon Digital uma empressa de Outsourcing de Impressão e Tecnolo
 
 ## Versão
 
-`v.1.8.2` em constates atualizações.
+`v.1.9` em constates atualizações.
 
 ## Links
 
@@ -31,4 +31,4 @@ Projeto do site Icon Digital uma empressa de Outsourcing de Impressão e Tecnolo
 
 ## Screenshots
 
-![Site](https://github.com/HugoaMoraes/IconDigital/assets/102623594/899966cc-a69e-4c5c-afac-1fd80f0b7eb6)
+![Icon Digital Desktop](https://github.com/HugoaMoraes/Desafio_UCB_01/assets/102623594/84eb1e90-14ba-48e1-9ac6-0e1a5d2eee1b)
