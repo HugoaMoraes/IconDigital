@@ -38,7 +38,41 @@ html {
 
 /* -------------------imagens news----------------------------- */
 
+.swiper-slide--one {
+  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400),
+    url("/img/news/Dia-do-Cliente.png");
+  background-size: cover;
+  background-position: center;
+}
 
+.swiper-slide--two {
+  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400),
+    url("/img/news/Qualidade.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide--three {
+  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400),
+    url("/img/news/Dicas.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.swiper-slide--four {
+  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400),
+    url("/img/news/IA.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide--five {
+  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400),
+    url("/img/news/Atolamento-HP.png");
+  background-size: cover;
+  background-position: center;
+}
 
 /* -----------------------NEW---------------------------------- */
 

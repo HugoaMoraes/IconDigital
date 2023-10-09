@@ -70,7 +70,6 @@ section>div hr {
 section>div p {
   line-height: 1.6;
 }
-
 section a {
   display: inline-block;
   text-decoration: none;
@@ -156,42 +155,6 @@ section>div>a {
 .swiper-slide-active div {
   display: block;
   opacity: 1;
-}
-
-.swiper-slide--one {
-  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400);
-  background-image: url("/img/news/Dia-do-Cliente.png");
-  background-size: cover;
-  background-position: center;
-}
-
-.swiper-slide--two {
-  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400);
-  background-image: url("/img/news/Qualidade.png");
-  background-size: cover;
-  background-position: center;
-}
-
-.swiper-slide--three {
-  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400);
-  background-image: url("/img/news/Dicas.png");
-  background-size: cover;
-  background-position: center;
-
-}
-
-.swiper-slide--four {
-  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400);
-  background-image: url("/img/news/IA.png");
-  background-size: cover;
-  background-position: center;
-}
-
-.swiper-slide--five {
-  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400);
-  background-image: url("/img/news/Atolamento-HP.png");
-  background-size: cover;
-  background-position: center;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
