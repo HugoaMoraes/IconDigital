@@ -39,14 +39,14 @@ html {
 
 .swiper-slide--one {
   background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
-    url("/img/news/Dia-do-Cliente.png") !important;
+    url("../img/news/Dia-do-Cliente.png") !important;
   background-size: cover !important;
   background-position: center !important;
 }
 
 .swiper-slide--two {
   background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
-    url("/img/news/Qualidade.png") !important;
+    url("../img/news/Qualidade.png") !important;
   background-size: cover !important;
   background-position: center !important;
 }
@@ -54,7 +54,7 @@ html {
 .swiper-slide--three {
   background-color: var(--vermelho);
   background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
-    url("/img/news/Dicas.png") !important;
+    url("../img/news/Dicas.png") !important;
   background-size: cover !important;
   background-position: center !important;
 
@@ -63,7 +63,7 @@ html {
 .swiper-slide--four {
   background-color: var(--vermelho);
   background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
-    url("/img/news/IA.png") !important;
+    url("../img/news/IA.png") !important;
   background-size: cover !important;
   background-position: center !important;
 }
@@ -71,7 +71,7 @@ html {
 .swiper-slide--five {
   background-color: var(--vermelho);
   background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
-    url("/img/news/Atolamento-HP.png") !important;
+    url("../img/news/Atolamento-HP.png") !important;
   background-size: cover !important;
   background-position: center !important;
 }
