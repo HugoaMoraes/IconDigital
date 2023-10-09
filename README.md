@@ -11,7 +11,7 @@ Projeto do site Icon Digital uma empressa de Outsourcing de Impressão e Tecnolo
 
 ## Versão
 
-`v.1.9.2` em constates atualizações.
+`v.1.9.3` em constates atualizações.
 
 ## Links
 
