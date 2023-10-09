@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
 
+
+body {
+  padding-right: 0 !important
+}
+
 :root {
   --vermelho: #D12824;
   --vermelhoescuro: #B8221F;
@@ -33,6 +38,8 @@ html {
 
 /* -----------------------NEW---------------------------------- */
 
+
+
 .wpp {
   position: fixed;
   margin-top: 0px;
@@ -45,14 +52,6 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: end;
-}
-
-.coricone {
-  color: var(--vermelho);
-}
-
-.coricone:hover {
-  color: var(--vermelhao);
 }
 
 .marcacao {
@@ -109,6 +108,7 @@ html {
   background-size: cover;
   border-radius: 0 0 50% 50% / 4%;
 }
+
 
 .main-navbar-nav .navbar-brand {
   font-size: 38px;
@@ -225,9 +225,6 @@ html {
   padding-bottom: 70px;
 }
 
-.marginplusbaixo {
-  padding-bottom: 70px;
-}
 
 .fh5co-advantages-outer .span-perfect {
   color: var(--vermelho);

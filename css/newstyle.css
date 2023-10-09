@@ -1,0 +1,201 @@
+:root {
+  --vermelho: #D12824;
+  --vermelhoescuro: #B8221F;
+  --vermelhao: #911B19;
+  --branco: #f7f7f7;
+  --fullbranco: #fff;
+  --cinzaclaro: #878787;
+  --cinzamaiscalro: #ECECEC;
+}
+
+section {
+  position: relative;
+  width: min(100rem, 90%);
+  margin: 0 auto;
+  min-height: 100vh;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  padding-block: min(20vh, 3rem);
+  padding-top: 0px;
+  padding-bottom: 70px;
+}
+
+.bg {
+  position: fixed;
+  top: -4rem;
+  left: -12rem;
+  z-index: -1;
+  opacity: 0;
+}
+
+.bg2 {
+  position: fixed;
+  bottom: -2rem;
+  right: -3rem;
+  z-index: -1;
+  width: 9.375rem;
+  opacity: 0;
+}
+
+section > div span {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  color: var(--cinzaclaro);
+}
+
+section > div h1 {
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+  font-weight: 900;
+  font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 1rem);
+  background-color: var(--vermelho);
+  background-image: linear-gradient(45deg, #D12824, #911B19);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+section > div hr {
+  display: block;
+  background: var(--vermelho);
+  height: 0.25rem;
+  width: 6.25rem;
+  border: none;
+  margin: 1.125rem 0 1.875rem 0;
+}
+
+section > div p {
+  line-height: 1.6;
+}
+
+section a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--cinzaclaro);
+  transition: 0.3s ease-in-out;
+}
+
+section > div > a {
+  border: 2px solid #878787;
+  margin-top: 2.188rem;
+  padding: 0.625rem 1.875rem;
+}
+
+.coricone {
+  color: var(--branco);
+  width: 24px;
+  height: 24px;
+}
+
+.coricone:hover {
+  color: var(--vermelho);
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 3.125rem;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.swiper-pagination {
+  bottom: 1.25rem !important;
+}
+
+.swiper-slide {
+  border-radius: 6px;
+  width: 18.75rem;
+  height: 28.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+}
+
+.swiper-slide h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  padding: 0 0 0 1.563rem;
+  text-transform: uppercase;
+}
+
+.swiper-slide p {
+  color: var(--fullbranco);
+  font-weight: 300;
+  padding: 0 1.563rem;
+  line-height: 1.6;
+  font-size: 0.75rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.swiper-slide a {
+  margin: 0rem 0rem 3.438rem 1.563rem;
+  font-size: 0.9rem;
+}
+
+.swiper-slide div {
+  display: none;
+  opacity: 0;
+  padding-bottom: 0.625rem;
+}
+
+.swiper-slide-active div {
+  display: block;
+  opacity: 1;
+}
+
+.swiper-slide--one {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/Dia-do-Cliente.png") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--two {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/Qualidade.png") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--three {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/Dicas.png") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--four {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/IA.png") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--five {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/Atolamento-HP.png") no-repeat 50% 50%/cover;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+@media screen and (min-width: 48rem) {
+  section {
+    display: flex;
+    align-items: center;
+  }
+  .bg,
+  .bg2 {
+    opacity: 0.1;
+  }
+}
+@media screen and (min-width: 93.75rem) {
+  .swiper {
+    width: 85%;
+  }
+}/*# sourceMappingURL=newstyle.css.map */
