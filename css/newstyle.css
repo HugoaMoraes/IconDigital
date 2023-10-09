@@ -160,23 +160,33 @@ section > div > a {
 }
 
 .swiper-slide--one {
-  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/Dia-do-Cliente.png") no-repeat 50% 50%/cover;
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/Dia-do-Cliente.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .swiper-slide--two {
-  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/Qualidade.png") no-repeat 50% 50%/cover;
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/Qualidade.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .swiper-slide--three {
-  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/Dicas.png") no-repeat 50% 50%/cover;
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/Dicas.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .swiper-slide--four {
-  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/IA.png") no-repeat 50% 50%/cover;
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/IA.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .swiper-slide--five {
-  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/Atolamento-HP.png") no-repeat 50% 50%/cover;
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0.0941176471), rgba(44, 83, 100, 0)), url("/img/news/Atolamento-HP.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
