@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
 
-
 body {
   padding-right: 0 !important
 }
@@ -39,21 +38,22 @@ html {
 /* -------------------imagens news----------------------------- */
 
 .swiper-slide--one {
-  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400),
+  background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
     url("/img/news/Dia-do-Cliente.png");
   background-size: cover;
   background-position: center;
 }
 
 .swiper-slide--two {
-  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400),
+  background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
     url("/img/news/Qualidade.png");
   background-size: cover;
   background-position: center;
 }
 
 .swiper-slide--three {
-  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400),
+  background-color: var(--vermelho);
+  background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
     url("/img/news/Dicas.png");
   background-size: cover;
   background-position: center;
@@ -61,14 +61,16 @@ html {
 }
 
 .swiper-slide--four {
-  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400),
+  background-color: var(--vermelho);
+  background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
     url("/img/news/IA.png");
   background-size: cover;
   background-position: center;
 }
 
 .swiper-slide--five {
-  background: linear-gradient(to top, #0f2027, #203a4318, #2c536400),
+  background-color: var(--vermelho);
+  background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
     url("/img/news/Atolamento-HP.png");
   background-size: cover;
   background-position: center;
