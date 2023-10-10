@@ -90,10 +90,10 @@
 							<a class="nav-link" href="#" onclick="$('#fh5co-download').goTo();return false;">Área do
 								Cliente</a>
 						</li>
-						<li class="nav-item">
+						<!-- <li class="nav-item">
 							<a class="nav-link" href="#"
 								onclick="$('#fh5co-download').goTo();return false;">Tutoriais</a>
-						</li>
+						</li> -->
 					</ul>
 					<div class="social-icons-header">
 						<a href="https://www.facebook.com/people/icondigitalbrasilia/100069316981716/"
@@ -116,7 +116,7 @@
 					outsourcing de impressão, PC as a Service, VoIP e gestão documental para ajudar sua empresa a
 					alcançar eficiência e produtividade aprimoradas.</p>
 				<button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s" href="#"
-					data-target="#login" data-toggle="modal">Fale com um Consultor</button>
+					data-target="#m-consultor" data-toggle="modal">Fale com um Consultor</button>
 				<!-- <button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s"
 					onclick="$('#fh5co-features').goTo();return false;">Features</button> -->
 				<img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/icon/Imp.svg"
@@ -204,18 +204,18 @@
 
 		<section class="newscima">
 
-			<div class="container">
+			<div class="container wow fadeInLeft animated" data-wow-delay="0.95s">
 				<span>Newsletter</span>
-				<h1>Confira as nossas principais Novidades!</h1>
+				<h2>Confira as nossas principais Novidades!</h2>
 				<hr>
 				<p>Queremos te deixar atualizado diariamente sobre o mundo do outsourcing, veja as novidades e
 					vantagens sobre o segmento que mais cresce da tecnologia. <b>Aqui:</b></p>
 			</div>
-			<div class="swiper">
+			<div class="swiper wow fadeInRight animated" data-wow-delay="0.85s">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide swiper-slide--one">
 						<div>
-							<h2>Dia do Cliente</h2>
+							<h3 class="textinhoo">Dia do Cliente</h3>
 							<p>🎉🥳 Clientes da Icon Digital! Queremos agradecer por
 								escolherem a nossa família para fazer parte da jornada de vocês.</p>
 							<p><small class="text-muted">Publicado: 15 - Outubro - 2023</small></p>
@@ -225,7 +225,7 @@
 					</div>
 					<div class="swiper-slide swiper-slide--two">
 						<div>
-							<h2>Qualidade</h2>
+							<h3>Qualidade</h3>
 							<p>🖨️✨ A primeira impressão conta, e a qualidade da sua
 								impressão reflete diretamente na imagem da sua empresa.</p>
 							<p><small class="text-muted">Publicado: 8 - Setembro - 2023</small></p>
@@ -239,7 +239,7 @@
 					<div class="swiper-slide swiper-slide--three">
 
 						<div>
-							<h2>Dicas</h2>
+							<h3>Dicas</h3>
 							<p>🖨️Otimizando o Desempenho da Sua Impressora com 5 Dicas
 								Criativas: Escolha Papéis de Qualidade, Limpeza Regular é Essencial</p>
 							<p><small class="text-muted">Publicado: 30 - Agosto - 2023</small></p>
@@ -253,7 +253,7 @@
 					<div class="swiper-slide swiper-slide--four">
 
 						<div>
-							<h2>IA</h2>
+							<h3>IA</h3>
 							<p>Você já parou para pensar em como a inteligência artificial
 								tem revolucionado até mesmo a forma como imprimimos ?</p>
 							<p><small class="text-muted">Publicado: 24 - Agosto - 2023</small></p>
@@ -267,7 +267,7 @@
 					<div class="swiper-slide swiper-slide--five">
 
 						<div>
-							<h2>Atolamento E52645</h2>
+							<h3>Atolamento E52645</h3>
 							<p>Imprime 45 páginas por minuto (ppm) em papel Carta e 43 ppm
 								em papel tamanho A4;
 								Impressão USB; Bandeja 1 (capacidade para 100 folhas)</p>
@@ -443,7 +443,7 @@
 													  SOMOS
 		 ========================================================================================================== -->
 
-		<div id="fh5co-reviews" class="fh5co-reviews-outer animated fadeIn" data-wow-delay="0.56s">
+		<div id="fh5co-reviews" class="fh5co-reviews-outer wow fadeIn" data-wow-delay="0.56s">
 			<h2>Quem Somos</h2>
 			<small class="container p-0">A <b>ICON DIGITAL</b> é uma empresa de tecnologia da informação com atuação
 				desde <b>1999</b>.
@@ -464,7 +464,7 @@
 													  SLIDER2
 		 ========================================================================================================== -->
 
-		<div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
+		<div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.95s">
 			<h2>Confiamos na Icon</h2>
 			<small class="container">Já ajudamos muitas empresas a <b>reduzir custos e melhorar o processo de impressão
 					e organização</b>,
@@ -577,6 +577,10 @@
 								<a href="#" onclick="$('#').goTo();return false;">
 									<li class="active">Área Tecnica</li>
 								</a>
+								<a href="#m-contatos" data-target="#m-contatos" data-toggle="modal"
+									onclick="$('#').goTo();return false;">
+									<li class="active">Contatos</li>
+								</a>
 							</ul>
 						</nav>
 					</div>
@@ -610,7 +614,7 @@
                                                 MODAIS	
     ========================================================================================================== -->
 
-		<div id="login" class="modal fade p-0" role="dialog">
+		<div id="m-consultor" class="modal fade p-0" role="dialog">
 			<div class="modal-dialog">
 
 				<div class="modal-content">
@@ -618,29 +622,158 @@
 
 						<button data-dismiss="modal" class="close">&times;</button>
 
-						<h4 class="titumodal">Nossos Consultores</h4>
+						<h4 class="titumodal">Nossos Serviços</h4>
 
 						<hr>
 
-						<div>
-							<h5 class="menortitumodal">Atendimento:</h5>
-							<p class="paramodal">De Segunda a Sexta das 08h às 18h</p>
+						<div class="info-bloco">
+							<div class="infos img1">
+								<h6>VENDA DE SUPRIMENTOS</h6>
+								<hr>
+								<p class="infos-nome">Vendas</p>
+								<p class="infos-email">comercial1@icondigital.com</p>
+								<p>(61) 3961-2635</p>
+								<p>(61) 9.9911-7312</p>
+							</div>
 
+							<div class="infos img2">
+								<h6>OUTSOURCING</h6>
+								<hr>
+								<p class="infos-nome">Orçamento</p>
+								<p class="infos-email">henrique@icondigital.com.br</p>
+								<p>(61) 3961-2635</p>
+								<p>(61) 9.982-81273</p>
+							</div>
+
+							<div class="infos img3">
+								<h6>ARQUIVAR</h6>
+								<hr>
+								<p class="infos-nome">Proposta Comercial</p>
+								<p class="infos-email">brasilia.comercial1@arquivar.com</p>
+								<p>(61) ????-????</p>
+							</div>
+							
+							<div class="infos img4">
+								<h6>NET2FONE</h6>
+								<hr>
+								<p class="infos-nome">Orçamento</p>
+								<p class="infos-email">?@icondigital.com.br</p>
+								<p>(61) ????-????</p>
+							</div>
+							
 						</div>
 
-						<div class="icons-modal">
-							<h5 class="menortitumodal">Acompanhe-nos:</h5>
-							<a href="https://www.facebook.com/people/icondigitalbrasilia/100069316981716/"
-								target="_blank"><i class="fab fa-facebook-f"></i></a>
-							<a href="https://instagram.com/icondigital.com.br" target="_blank"><i
-									class="fab fa-instagram"></i></a>
-							<a href="https://www.linkedin.com/company/icon-digital-oficial/mycompany/"
-								target="_blank"><i class="fab fa-linkedin-in"></i></a>
-							<a href="https://www.youtube.com/channel/UC4EPdHuZDhnOLafqv19M6Kw/featured"
-								target="_blank"><i class="fab fa-youtube"></i></a>
-							<a href="https://api.whatsapp.com/send?phone=5561999285353" target="_blank"><i
-									class="fab fa-whatsapp"></i></a>
+						<div class="infos-baixo">
+							<div>
+								<h5 class="menortitumodal">Atendimento:</h5>
+								<p class="paramodal">De Segunda a Sexta </p>
+								<p class="paramodal">Das 08h às 18h</p>
+
+							</div>
+
+							<div class="icons-modal">
+								<h5 class="menortitumodal">Acompanhe-nos:</h5>
+								<a href="https://www.facebook.com/people/icondigitalbrasilia/100069316981716/"
+									target="_blank"><i class="fab fa-facebook-f"></i></a>
+								<a href="https://instagram.com/icondigital.com.br" target="_blank"><i
+										class="fab fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/company/icon-digital-oficial/mycompany/"
+									target="_blank"><i class="fab fa-linkedin-in"></i></a>
+								<a href="https://www.youtube.com/channel/UC4EPdHuZDhnOLafqv19M6Kw/featured"
+									target="_blank"><i class="fab fa-youtube"></i></a>
+								<a href="https://api.whatsapp.com/send?phone=5561999285353" target="_blank"><i
+										class="fab fa-whatsapp"></i></a>
+							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal 2 -->
+
+		<div id="m-contatos" class="modal fade p-0" role="dialog">
+			<div class="modal-dialog">
+
+				<div class="modal-content">
+					<div class="modal-body">
+
+						<button data-dismiss="modal" class="close">&times;</button>
+
+						<h4 class="titumodal">Nossos Contatos</h4>
+
+						
+
+						<div class="info-bloco">
+							<div class="infos">
+								<h6>DIRETORIA COMERCIAL</h6>
+								<hr>
+								<p class="infos-nome">Cláudio Borges</p>
+								<p class="infos-email">claudioborges@icondigital.com.br</p>
+								<p>(61) 3961-2635</p>
+								<p>(61) 9.9911-7312</p>
+							</div>
+
+							<div class="infos">
+								<h6>DIRETORIA DE OPERAÇÕES</h6>
+								<hr>
+								<p class="infos-nome">Cláudio Filho</p>
+								<p class="infos-email">claudio@icondigital.com.br</p>
+								<p>(61) 3961-2635</p>
+							</div>
+							<div class="infos">
+								<h6>GERENTE COMERCIAL</h6>
+								<hr>
+								<p class="infos-nome">Henrique Miotto</p>
+								<p class="infos-email">henrique@icondigital.com.br</p>
+								<p>(61) 3961-2635</p>
+								<p>(61) 9.982-81273</p>
+							</div>
+							<div class="infos">
+								<h6>GERENTE ADMINISTRATIVO</h6>
+								<hr>
+								<p class="infos-nome">Bruno Diniz</p>
+								<p class="infos-email">brunodiniz@icondigital.com.br</p>
+								<p>(61) 3961-2635</p>
+								<P>(61) 9.9181-6980</P>
+							</div>
+							<div class="infos">
+								<h6>DEPARTAMENTO TÉCNICO</h6>
+								<hr>
+								<p class="infos-nome">Andreza Brito</p>
+								<p class="infos-email">andreza@icondigital.com.br</p>
+							</div>
+							<div class="infos">
+								<h6>FATURAMENTO E FINANCEIRO</h6>
+								<hr>
+								<p class="infos-nome">Cristiane Monteiro</p>
+								<p class="infos-email">faturamento@icondigital.com.br</p>
+								<p>(61) 3961-2635</p>
+							</div>
+						</div>
+
+						<div class="infos-baixo">
+							<div>
+								<h5 class="menortitumodal">Atendimento:</h5>
+								<p class="paramodal">De <b>Segunda á Sexta</b></p>
+								<p class="paramodal">Das <b>08h às 18h</b></p>
+
+							</div>
+
+							<div class="icons-modal">
+								<h5 class="menortitumodal">Acompanhe-nos:</h5>
+								<a href="https://www.facebook.com/people/icondigitalbrasilia/100069316981716/"
+									target="_blank"><i class="fab fa-facebook-f"></i></a>
+								<a href="https://instagram.com/icondigital.com.br" target="_blank"><i
+										class="fab fa-instagram"></i></a>
+								<a href="https://www.linkedin.com/company/icon-digital-oficial/mycompany/"
+									target="_blank"><i class="fab fa-linkedin-in"></i></a>
+								<a href="https://www.youtube.com/channel/UC4EPdHuZDhnOLafqv19M6Kw/featured"
+									target="_blank"><i class="fab fa-youtube"></i></a>
+								<a href="https://api.whatsapp.com/send?phone=5561999285353" target="_blank"><i
+										class="fab fa-whatsapp"></i></a>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>

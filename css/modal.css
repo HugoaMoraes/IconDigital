@@ -24,6 +24,7 @@
 
 .paramodal {
     color: var(--branco);
+    margin: 0px;
 }
 
 .close {
@@ -42,7 +43,7 @@
 
 .icons-modal i {
     color: var(--fullbranco);
-    margin: 5px;
+    margin: 5px 10px 5px 0px;
     font-size: 20px;
 }
 

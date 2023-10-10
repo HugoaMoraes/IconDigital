@@ -35,46 +35,7 @@ html {
   overflow-x: hidden;
 }
 
-/* -------------------imagens news----------------------------- */
 
-.swiper-slide--one {
-  background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
-    url("../img/news/Dia-do-Cliente.png") !important;
-  background-size: cover !important;
-  background-position: center !important;
-}
-
-.swiper-slide--two {
-  background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
-    url("../img/news/Qualidade.png") !important;
-  background-size: cover !important;
-  background-position: center !important;
-}
-
-.swiper-slide--three {
-  background-color: var(--vermelho);
-  background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
-    url("../img/news/Dicas.png") !important;
-  background-size: cover !important;
-  background-position: center !important;
-
-}
-
-.swiper-slide--four {
-  background-color: var(--vermelho);
-  background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
-    url("../img/news/IA.png") !important;
-  background-size: cover !important;
-  background-position: center !important;
-}
-
-.swiper-slide--five {
-  background-color: var(--vermelho);
-  background: linear-gradient(to top, rgba(15, 32, 39, 1), rgba(32, 58, 67, 0.1), rgba(44, 83, 100, 0)),
-    url("../img/news/Atolamento-HP.png") !important;
-  background-size: cover !important;
-  background-position: center !important;
-}
 
 /* -----------------------NEW---------------------------------- */
 
@@ -116,6 +77,72 @@ html {
   background: url("../img/HByHugo.svg")no-repeat center;
   width: 35px;
   height: 35px;
+}
+
+/* ---------------------------Modal------------------------------*/
+
+.info-bloco {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.infos h6 {
+  font-size: 0.8rem;
+  margin: 0px;
+}
+
+.infos hr {
+  margin: 0.7rem 0;
+}
+
+.infos {
+  color: var(--fullbranco);
+  border-radius: 8px;
+  padding: 8px;
+  line-height: 25%;
+  font-size: 0.9rem;
+  min-width: 49%;
+  margin-bottom: 0.6rem;
+}
+
+.img1 {
+  background-image: url("../img/icon/Modal/VesdasDeSuprimentosM.svg");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: top 5rem right 0.5rem;
+}
+.img2 {
+  background-image: url("../img/icon/Modal/OutsourcingDeImpressãoM2.svg");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: top 5rem right 0.5rem;
+}
+.img3 {
+  background-image: url("../img/icon/Modal/GestãoDocumentosM2.svg");
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: top 5rem right 0.5rem;
+}
+.img4 {
+  background-image: url("../img/icon/Modal/ServiçoVoIPM2.svg");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: top 3.8rem right 0.5rem;
+}
+
+
+.infos-nome {
+  font-style: bold;
+}
+
+.infos-email {
+  font-size: 12px;
+}
+
+.infos-baixo {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* ------------------------------------------------------------- */
@@ -275,7 +302,7 @@ html {
 
 .fh5co-advantages-outer .span-features {
   text-transform: uppercase;
-  font-size: 42px;
+  font-size: 38px;
 }
 
 .fh5co-advantages-outer .second-title {
