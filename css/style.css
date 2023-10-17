@@ -81,69 +81,7 @@ html {
 
 /* ---------------------------Modal------------------------------*/
 
-.info-bloco {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
-.infos h6 {
-  font-size: 0.8rem;
-  margin: 0px;
-}
-
-.infos hr {
-  margin: 0.7rem 0;
-}
-
-.infos {
-  color: var(--fullbranco);
-  border-radius: 8px;
-  padding: 8px;
-  line-height: 25%;
-  font-size: 0.9rem;
-  min-width: 49%;
-  margin-bottom: 0.6rem;
-}
-
-.img1 {
-  background-image: url("../img/icon/Modal/VesdasDeSuprimentosM.svg");
-  background-size: 60px;
-  background-repeat: no-repeat;
-  background-position: top 5rem right 0.5rem;
-}
-.img2 {
-  background-image: url("../img/icon/Modal/OutsourcingDeImpressãoM2.svg");
-  background-size: 30px;
-  background-repeat: no-repeat;
-  background-position: top 5rem right 0.5rem;
-}
-.img3 {
-  background-image: url("../img/icon/Modal/GestãoDocumentosM2.svg");
-  background-size: 40px;
-  background-repeat: no-repeat;
-  background-position: top 5rem right 0.5rem;
-}
-.img4 {
-  background-image: url("../img/icon/Modal/ServiçoVoIPM2.svg");
-  background-size: 25px;
-  background-repeat: no-repeat;
-  background-position: top 3.8rem right 0.5rem;
-}
-
-
-.infos-nome {
-  font-style: bold;
-}
-
-.infos-email {
-  font-size: 12px;
-}
-
-.infos-baixo {
-  display: flex;
-  justify-content: space-between;
-}
 
 /* ------------------------------------------------------------- */
 

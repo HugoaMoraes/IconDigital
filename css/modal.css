@@ -20,11 +20,14 @@
 
 .menortitumodal {
     color: var(--branco);
+    font-size: 1rem;
+    margin-bottom: 2%;
 }
 
 .paramodal {
     color: var(--branco);
     margin: 0px;
+    font-size: 0.8rem;
 }
 
 .close {
@@ -34,10 +37,10 @@
 
 .modal-content {
     background: linear-gradient(to bottom right, #D12824, #B8221F, #911B19);
-    
+
 }
 
-.modal-body{
+.modal-body {
     padding: 20px;
 }
 
@@ -54,4 +57,130 @@
     -o-transition: all .2s ease;
     -ms-transition: all .2s ease;
     transition: all .2s ease;
+}
+
+.info-bloco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.infos h6 {
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+.infos hr {
+    margin: 0.7rem 0;
+}
+
+.infos {
+    color: var(--fullbranco);
+    border-radius: 8px;
+    padding: 8px;
+    line-height: 25%;
+    font-size: 0.9rem;
+    min-width: 225px;
+    margin-bottom: 1.1xrem;
+}
+
+
+.info-bloco {
+    margin-bottom: 10px;
+}
+
+
+.infos-nome {
+    font-style: bold;
+    margin-bottom: 15px;
+}
+
+.infos-email {
+    font-size: 12px;
+}
+
+.info-icones {
+    text-align: center;
+}
+
+.info-icones a {
+    color: var(--fullbranco);
+    font-size: 1.1rem;
+    
+}
+
+.info-a-iten{
+    padding: 0px 20px 0px 0px;
+}
+
+
+
+.info-icones a:hover {
+    color: var(--vermelhao);
+}
+
+.infos-baixo {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-suprimento {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* --img-- */
+
+.info-img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin: 10px 36%;
+}
+
+.imagem1 {
+    background: url("../img/icon/Modal/artist-white.jpg");
+    background-size: cover;
+}
+
+.imagem2 {
+    background: url("../img/icon/Modal/artist-white.jpg");
+    background-size: cover;
+}
+
+.imagem3 {
+    background: url("../img/icon/Modal/artist-white.jpg");
+    background-size: cover;
+}
+
+.imagem4 {
+    background: url("../img/icon/Modal/artist-white.jpg");
+    background-size: cover;
+}
+.imagem5 {
+    height: 100px;
+    width: 100px;
+    margin: 25px 39%;
+    background: url("../img/icon/Modal/Suprimento.svg");
+    background-size: cover;
+}
+
+@media screen and (max-width: 520px) {
+
+    .info-bloco {
+        align-items: center;
+        display: block;
+    }
+
+    .info-img {
+        margin: 1.5rem 37%;
+    }
+
+    .infos {
+
+        margin-bottom: 1.5rem;
+    }
+
 }
