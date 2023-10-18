@@ -67,7 +67,7 @@
 
 .infos h6 {
     font-size: 0.8rem;
-    margin: 0px;
+    margin-bottom: 10px;
 }
 
 .infos hr {
@@ -106,10 +106,10 @@
 .info-icones a {
     color: var(--fullbranco);
     font-size: 1.1rem;
-    
+
 }
 
-.info-a-iten{
+.info-a-iten {
     padding: 0px 20px 0px 0px;
 }
 
@@ -159,6 +159,7 @@
     background: url("../img/icon/Modal/artist-white.jpg");
     background-size: cover;
 }
+
 .imagem5 {
     height: 100px;
     width: 100px;
@@ -169,13 +170,18 @@
 
 @media screen and (max-width: 520px) {
 
+    .element {
+        all: none;
+    }
+
     .info-bloco {
         align-items: center;
         display: block;
+
     }
 
     .info-img {
-        margin: 1.5rem 37%;
+        margin: 1.5rem 40%;
     }
 
     .infos {

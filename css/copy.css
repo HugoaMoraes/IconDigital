@@ -1,0 +1,23 @@
+#meuLink{
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#meuLink:hover {
+    color: #911B19;
+}
+
+.copiado-popup {
+    background-color: #911B19;
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}

@@ -27,12 +27,13 @@
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
 		integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
 	<!-- Modal style  -->
 	<link rel="stylesheet" href="css/modal.css">
 	<!-- Newlatter style  -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/newstyle.css">
+	<!-- Copy style  -->
+	<link rel="stylesheet" href="css/copy.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
@@ -624,66 +625,81 @@
 
 						<button data-dismiss="modal" class="close">&times;</button>
 
+
 						<h4 class="titumodal">Nossos Serviços</h4>
-
 						<hr>
-
 						<div class="info-bloco">
 							<div class="infos">
+
 								<h6><b>VENDA DE SUPRIMENTOS</b></h6>
-								<hr>
+
 								<div class="info-icones">
 									<div class="info-img imagem1"></div>
 									<p class="infos-nome">Célia Rodrigues</p>
-									<a class="info-a-iten" href="tel:+556139612635" target="_blank"><i class="fas fa-phone"></i></a>
-									<a class="info-a-iten" href="https://api.whatsapp.com/send?phone=5561999285353" target="_blank"><i
-											class="fab fa-whatsapp"></i></a>
-									<a class="info-a-iten" href="mailto:comercial1@icondigital.com"><i class="fas fa-envelope"></i></a>
-									<a href="#"><i class="far fa-clone"></i></a>
+									<a class="info-a-iten" href="tel:+556139612635" target="_blank"><i
+											class="fas fa-phone"></i></a>
+									<a class="info-a-iten" href="https://api.whatsapp.com/send?phone=5561999285353"
+										target="_blank"><i class="fab fa-whatsapp"></i></a>
+									<a class="info-a-iten" href="mailto:comercial1@icondigital.com"><i
+											class="fas fa-envelope"></i></a>
+									<a id="meuLink" value="comercial1@icondigital.com" onclick="copiarTexto(this)"><i
+											class="far fa-clone"></i></a>
 								</div>
 							</div>
 
 							<div class="infos">
+
 								<h6><b>OUTSOURCING</b></h6>
-								<hr>
+
 								<div class="info-icones">
 									<div class="info-img imagem2"></div>
 									<p class="infos-nome">Henrique Mioto</p>
-									<a class="info-a-iten" href="tel:+556139612635" target="_blank"><i class="fas fa-phone"></i></a>
-									<a class="info-a-iten" href="https://api.whatsapp.com/send?phone=5561998281273" target="_blank"><i
-											class="fab fa-whatsapp"></i></a>
-									<a class="info-a-iten" href="mailto:henrique@icondigital.com.br"><i class="fas fa-envelope"></i></a>
-									<a href="#"><i class="far fa-clone"></i></a>
+									<a class="info-a-iten" href="tel:+556139612635" target="_blank"><i
+											class="fas fa-phone"></i></a>
+									<a class="info-a-iten" href="https://api.whatsapp.com/send?phone=5561998281273"
+										target="_blank"><i class="fab fa-whatsapp"></i></a>
+									<a class="info-a-iten" href="mailto:henrique@icondigital.com.br"><i
+											class="fas fa-envelope"></i></a>
+									<a id="meuLink" value="henrique@icondigital.com.br" onclick="copiarTexto(this)"><i
+											class="far fa-clone"></i></a>
 								</div>
 							</div>
 
 							<div class="infos">
-								<h6><b>ARQUIVAR</b></h6>
+
 								<hr>
+								<h6><b>ARQUIVAR</b></h6>
+
 								<div class="info-icones">
 									<div class="info-img imagem3"></div>
 									<p class="infos-nome">Priscilla Belo</p>
-									<a class="info-a-iten" href="tel:+556139612645" target="_blank"><i class="fas fa-phone"></i></a>
+									<a class="info-a-iten" href="tel:+556139612645" target="_blank"><i
+											class="fas fa-phone"></i></a>
 									<!-- <a class="info-a-iten" href="https://api.whatsapp.com/send?phone=5561998281273" target="_blank"><i
 											class="fab fa-whatsapp"></i></a> -->
 									<a class="info-a-iten" href="mailto:brasilia.comercial1@arquivar.com"><i
 											class="fas fa-envelope"></i></a>
-									<a href="#"><i class="far fa-clone"></i></a>
+									<a id="meuLink" value="brasilia.comercial1@arquivar.com"
+										onclick="copiarTexto(this)"><i class="far fa-clone"></i></a>
 								</div>
 							</div>
 
 							<div class="infos ">
-								<h6><b>NET2FONE</b></h6>
 								<hr>
+								<h6><b>NET2FONE</b></h6>
+
 								<div class="info-icones">
 									<div class="info-img imagem4"></div>
 									<p class="infos-nome">Revendedor</p>
-									<a href="tel:+556139612645" target="_blank"><i class="fas fa-phone"></i></a>
+									<a class="info-a-iten" href="tel:+556139612645" target="_blank"><i
+											class="fas fa-phone"></i></a>
 									<!-- <a href="https://api.whatsapp.com/send?phone=5561998281273" target="_blank"><i
 											class="fab fa-whatsapp"></i></a>
 									<a href="mailto:brasilia.comercial1@arquivar.com"><i
 											class="fas fa-envelope"></i></a>
 									<a href="#"><i class="far fa-clone"></i></a> -->
+									<a id="meuLink" value="??@icondigital.com.br" onclick="copiarTexto(this)"><i
+											class="far fa-clone"></i></a>
 								</div>
 							</div>
 
@@ -728,12 +744,12 @@
 
 						<h4 class="titumodal">Nossos Contatos</h4>
 
+						<hr>
 
 
 						<div class="info-bloco">
 							<div class="infos">
 								<h6><b>DIRETORIA COMERCIAL</b></h6>
-								<hr>
 								<p class="infos-nome">Cláudio Borges</p>
 								<p class="infos-email">claudioborges@icondigital.com.br</p>
 								<p>(61) 3961-2635</p>
@@ -742,14 +758,12 @@
 
 							<div class="infos">
 								<h6><b>DIRETORIA DE OPERAÇÕES</b></h6>
-								<hr>
 								<p class="infos-nome">Cláudio Filho</p>
 								<p class="infos-email">claudio@icondigital.com.br</p>
 								<p>(61) 3961-2635</p>
 							</div>
 							<div class="infos">
 								<h6><b>GERENTE COMERCIAL</b></h6>
-								<hr>
 								<p class="infos-nome">Henrique Miotto</p>
 								<p class="infos-email">henrique@icondigital.com.br</p>
 								<p>(61) 3961-2635</p>
@@ -757,7 +771,6 @@
 							</div>
 							<div class="infos">
 								<h6><b>GERENTE ADMINISTRATIVO</b></h6>
-								<hr>
 								<p class="infos-nome">Bruno Diniz</p>
 								<p class="infos-email">brunodiniz@icondigital.com.br</p>
 								<p>(61) 3961-2635</p>
@@ -765,13 +778,11 @@
 							</div>
 							<div class="infos">
 								<h6><b>DEPARTAMENTO TÉCNICO</b></h6>
-								<hr>
 								<p class="infos-nome">Andreza Brito</p>
 								<p class="infos-email">andreza@icondigital.com.br</p>
 							</div>
 							<div class="infos">
 								<h6><b>FATURAMENTO E FINANCEIRO</b></h6>
-								<hr>
 								<p class="infos-nome">Cristiane Monteiro</p>
 								<p class="infos-email">faturamento@icondigital.com.br</p>
 								<p>(61) 3961-2635</p>
@@ -823,14 +834,22 @@
 						<div class="info-suprimento">
 							<div class="infos">
 								<h6><b>DEPARTAMENTO DE SUPRIMENTOS</b></h6>
-								<hr>
+
 								<div class="info-icones">
 									<div class="info-img imagem5"></div>
-									<a class="info-a-iten" href="tel:+556139642007" target="_blank"><i class="fas fa-phone"></i></a>
-									<a class="info-a-iten" href="mailto:suprimento@icondigital.com.br"><i class="fas fa-envelope"></i></a>
-									<a href="#"><i class="far fa-clone"></i></a>
+									<a class="info-a-iten" href="tel:+556139642007" target="_blank"><i
+											class="fas fa-phone"></i></a>
+
+									<a class="info-a-iten" href="mailto:suprimento@icondigital.com.br"><i
+											class="fas fa-envelope"></i></a>
+
+									<a id="meuLink" value="suprimento@icondigital.com.br" onclick="copiarTexto(this)"><i
+											class="far fa-clone"></i></a>
+
 								</div>
 							</div>
+
+
 
 						</div>
 
@@ -871,6 +890,7 @@
 	<script src="js/carousel.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 	<script src="js/swiper.js"></script>
+	<script src="js/copy.js"></script>
 	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 	<script>
 		var typed = new Typed('#element', {
