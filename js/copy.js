@@ -23,7 +23,7 @@ function copiarTexto(element) {
 
     var copiado = document.createElement('div');
     copiado.className = 'copiado-popup';
-    copiado.textContent = 'E-mail Copiado';
+    copiado.textContent = 'Contato copiado!';
 
     document.body.appendChild(copiado);
 

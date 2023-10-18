@@ -40,7 +40,6 @@ html {
 /* -----------------------NEW---------------------------------- */
 
 
-
 .wpp {
   position: fixed;
   margin-top: 0px;
@@ -112,6 +111,13 @@ html {
   background: url("../img/icon/banner.png") no-repeat center;
   background-size: cover;
   border-radius: 0 0 50% 50% / 4%;
+}
+
+#fh5co-hero-wrapper404 {
+  height: 100vh;
+  width: 100vw;
+  background: url("../img/icon/banner404.png") no-repeat center;
+  background-size: cover;
 }
 
 
