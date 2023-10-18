@@ -31,4 +31,4 @@ Projeto do site Icon Digital uma empressa de Outsourcing de Impressão e Tecnolo
 
 ## Screenshots
 
-![Icon Digital Desktop](https://github.com/HugoaMoraes/Desafio_UCB_01/assets/102623594/84eb1e90-14ba-48e1-9ac6-0e1a5d2eee1b)
+![Icon Digital Desktop](https://github.com/HugoaMoraes/IconDigital/assets/102623594/b53b0328-b1a8-4ba5-a9e4-437f12814a5b)
