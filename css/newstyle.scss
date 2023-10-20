@@ -1,13 +1,4 @@
-:root {
-  --vermelho: #D12824;
-  --vermelhoescuro: #B8221F;
-  --vermelhao: #911B19;
-  --branco: #f7f7f7;
-  --fullbranco: #fff;
-  --cinzaclaro: #878787;
-  --cinzamaiscalro: #ECECEC;
-  --preto: #111;
-}
+@import url("style.css");
 
 section {
   position: relative;
@@ -68,6 +59,7 @@ section>div hr {
 }
 
 section>div p {
+  color: var(--preto);
   line-height: 1.6;
   font-size: 14.5px;
   
@@ -103,7 +95,7 @@ section>div>a {
 
 .swiper-pagination-bullet,
 .swiper-pagination-bullet-active {
-  background: #fff;
+  background: var(--fullbranco);
 }
 
 .swiper-pagination {
@@ -121,7 +113,7 @@ section>div>a {
 }
 
 .swiper-slide h3 {
-  color: #fff;
+  color: var(--fullbranco);
   font-style: bold;
   font-size: 1.4rem;
   line-height: 1.4;

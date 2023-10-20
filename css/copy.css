@@ -1,3 +1,5 @@
+@import url("style.css");
+
 #meuLink{
     position: relative;
     text-decoration: none;
@@ -6,12 +8,12 @@
 }
 
 #meuLink:hover {
-    color: #911B19;
+    color: var(--vermelhao);
 }
 
 .copiado-popup {
-    background-color: #911B19;
-    color: #fff;
+    background-color: var(--vermelhao);
+    color: var(--fullbranco);
     padding: 10px;
     border-radius: 6px;
     font-size: 14px;

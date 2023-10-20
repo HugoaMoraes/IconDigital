@@ -3,7 +3,7 @@
 
 # Site Icon Digital
 
-Projeto do site Icon Digital uma empressa de Outsourcing de Impressão e Tecnologia.
+Projeto do site Icon Digital uma empressa de Outsourcing de Impressão e Soluções em TI.
 ## Autor
 
 - [@hugo.amoraes](https://github.com/HugoaMoraes)
@@ -11,7 +11,7 @@ Projeto do site Icon Digital uma empressa de Outsourcing de Impressão e Tecnolo
 
 ## Versão
 
-`v.2.3` em constates atualizações.
+`v.3` em constates atualizações.
 
 ## Links
 

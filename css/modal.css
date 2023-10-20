@@ -1,37 +1,28 @@
 /*Trigger Button*/
 
-:root {
-    --vermelho: #D12824;
-    --vermelhoescuro: #B8221F;
-    --vermelhao: #911B19;
-    --branco: #f7f7f7;
-    --fullbranco: #fff;
-    --cinzaclaro: #878787;
-    --cinzamaiscalro: #ECECEC;
-    --preto: #111;
-}
+@import url("style.css");
 
 /*Modal*/
 
 .titumodal {
     font-weight: bold;
-    color: var(--branco);
+    color: var(--fullbranco);
 }
 
 .menortitumodal {
-    color: var(--branco);
+    color: var(--fullbranco);
     font-size: 1rem;
     margin-bottom: 2%;
 }
 
 .paramodal {
-    color: var(--branco);
+    color: var(--fullbranco);
     margin: 0px;
     font-size: 0.8rem;
 }
 
 .close {
-    color: var(--branco);
+    color: var(--fullbranco);
     transform: scale(1.2)
 }
 
