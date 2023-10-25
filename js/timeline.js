@@ -27,7 +27,7 @@ jQuery(document).ready(function ($) {
 			var timelineTotWidth = setTimelineWidth(timelineComponents, eventsMinDistance);
 			//the timeline has been initialize - show it
 			timeline.addClass('loaded');
-			startAutoSlide(timelineComponents, timelineTotWidth); // Adicione esta linha
+			startAutoSlide(timelineComponents, timelineTotWidth); 
 
 			//detect click on the next arrow
 			timelineComponents['timelineNavigation'].on('click', '.next', function (event) {
@@ -45,7 +45,7 @@ jQuery(document).ready(function ($) {
 				clearInterval(autoSlideTimer); // Cancela o temporizador atual
 				autoSlideTimer = setInterval(function () {
 					showNewContent(timelineComponents, timelineTotWidth, 'next');
-				}, 2000); // Inicia um novo temporizador de 2 segundos
+				}, 6000); // Inicia um novo temporizador de 2 segundos
 				timelineComponents['timelineEvents'].removeClass('selected');
 				$(this).addClass('selected');
 				updateOlderEvents($(this));

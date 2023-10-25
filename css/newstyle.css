@@ -67,7 +67,7 @@ section > div p {
 section a {
   display: inline-block;
   text-decoration: none;
-  color: var(--cinzaclaro);
+  color: var(--fullbranco);
   transition: 0.3s ease-in-out;
 }
 
@@ -84,7 +84,7 @@ section > div > a {
 }
 
 .coricone:hover {
-  color: var(--vermelho);
+  color: var(--vermelhao);
 }
 
 .swiper {
