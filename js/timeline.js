@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function ($) {
 	var timelines = $('.cd-horizontal-timeline'),
 		eventsMinDistance = 60;
@@ -86,21 +87,31 @@ jQuery(document).ready(function ($) {
 	}
 
 	function showNewContent(timelineComponents, timelineTotWidth, string) {
-		//go from one event to the next/previous one
-		var visibleContent = timelineComponents['eventsContent'].find('.selected'),
-			newContent = (string == 'next') ? visibleContent.next() : visibleContent.prev();
-
-		if (newContent.length > 0) { //if there's a next/prev event - show it
-			var selectedDate = timelineComponents['eventsWrapper'].find('.selected'),
-				newEvent = (string == 'next') ? selectedDate.parent('li').next('li').children('a') : selectedDate.parent('li').prev('li').children('a');
-
-			updateFilling(newEvent, timelineComponents['fillingLine'], timelineTotWidth);
-			updateVisibleContent(newEvent, timelineComponents['eventsContent']);
-			newEvent.addClass('selected');
-			selectedDate.removeClass('selected');
-			updateOlderEvents(newEvent);
-			updateTimelinePosition(string, newEvent, timelineComponents, timelineTotWidth);
-		}
+	  // Verificar se o conteúdo atual é o último conteúdo
+	  var visibleContent = timelineComponents['eventsContent'].find('.selected');
+	  var newContent = (string == 'next') ? visibleContent.next() : visibleContent.prev();
+	
+	  if (newContent.length > 0) {
+		// Avançar para o próximo conteúdo
+		var selectedDate = timelineComponents['eventsWrapper'].find('.selected');
+		var newEvent = (string == 'next') ? selectedDate.parent('li').next('li').children('a') : selectedDate.parent('li').prev('li').children('a');
+	
+		updateFilling(newEvent, timelineComponents['fillingLine'], timelineTotWidth);
+		updateVisibleContent(newEvent, timelineComponents['eventsContent']);
+		newEvent.addClass('selected');
+		selectedDate.removeClass('selected');
+		updateOlderEvents(newEvent);
+		updateTimelinePosition(string, newEvent, timelineComponents, timelineTotWidth);
+	  } else {
+		// Voltar para o primeiro conteúdo
+		var firstEvent = timelineComponents['eventsWrapper'].find('li:first-child a');
+		updateFilling(firstEvent, timelineComponents['fillingLine'], timelineTotWidth);
+		updateVisibleContent(firstEvent, timelineComponents['eventsContent']);
+		firstEvent.addClass('selected');
+		selectedDate.removeClass('selected');
+		updateOlderEvents(firstEvent);
+		updateTimelinePosition(string, firstEvent, timelineComponents, timelineTotWidth);
+	  }
 	}
 
 	function updateTimelinePosition(string, event, timelineComponents, timelineTotWidth) {
