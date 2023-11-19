@@ -1,4 +1,3 @@
-
 jQuery(document).ready(function ($) {
 	var timelines = $('.cd-horizontal-timeline'),
 		eventsMinDistance = 60;
@@ -30,15 +29,14 @@ jQuery(document).ready(function ($) {
 			timeline.addClass('loaded');
 			startAutoSlide(timelineComponents, timelineTotWidth); 
 
-			//detect click on the next arrow
 			timelineComponents['timelineNavigation'].on('click', '.next', function (event) {
-				event.preventDefault();
-				updateSlide(timelineComponents, timelineTotWidth, 'next');
+			  event.preventDefault();
+			  showNewContent(timelineComponents, timelineTotWidth, 'next');
 			});
-			//detect click on the prev arrow
+			
 			timelineComponents['timelineNavigation'].on('click', '.prev', function (event) {
-				event.preventDefault();
-				updateSlide(timelineComponents, timelineTotWidth, 'prev');
+			  event.preventDefault();
+			  showNewContent(timelineComponents, timelineTotWidth, 'prev');
 			});
 			//detect click on the a single event - show new event content
 			timelineComponents['eventsWrapper'].on('click', 'a', function (event) {
