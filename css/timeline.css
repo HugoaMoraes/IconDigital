@@ -13,11 +13,11 @@ Main Components
 
 .timeline-tamanho {
   max-width: 60%;
+  padding-right: 10px;
 }
 
 .timeline-tamanho-img {
-  width: 250px;
-  max-width: 100%;
+  width: 450px;
   height: auto;
 }
 
