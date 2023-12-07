@@ -37,7 +37,7 @@ Main Components
 
 .cd-horizontal-timeline::before {
   /* never visible - this is used in jQuery to check the current MQ */
-  content: 'mobile';
+  content: "mobile";
   display: none;
 }
 
@@ -63,7 +63,7 @@ Main Components
 .cd-horizontal-timeline .events-wrapper::after,
 .cd-horizontal-timeline .events-wrapper::before {
   /* these are used to create a shadow effect at the sides of the timeline */
-  content: '';
+  content: "";
   position: absolute;
   z-index: 2;
   top: 0;
@@ -73,13 +73,21 @@ Main Components
 
 .cd-horizontal-timeline .events-wrapper::before {
   left: 0;
-  background-image: -webkit-linear-gradient(left, #f8f8f8, rgba(248, 248, 248, 0));
+  background-image: -webkit-linear-gradient(
+    left,
+    #f8f8f8,
+    rgba(248, 248, 248, 0)
+  );
   background-image: linear-gradient(to right, #f8f8f8, rgba(248, 248, 248, 0));
 }
 
 .cd-horizontal-timeline .events-wrapper::after {
   right: 0;
-  background-image: -webkit-linear-gradient(right, #f8f8f8, rgba(248, 248, 248, 0));
+  background-image: -webkit-linear-gradient(
+    right,
+    #f8f8f8,
+    rgba(248, 248, 248, 0)
+  );
   background-image: linear-gradient(to left, #f8f8f8, rgba(248, 248, 248, 0));
 }
 
@@ -139,7 +147,7 @@ Main Components
 
 .cd-horizontal-timeline .events a::after {
   /* this is used to create the event spot */
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   right: auto;
@@ -170,7 +178,6 @@ Main Components
 
 .cd-horizontal-timeline .events a.selected:hover {
   text-decoration: none;
-
 }
 
 .cd-horizontal-timeline .events a.selected::after {
@@ -185,7 +192,7 @@ Main Components
 
   .cd-horizontal-timeline::before {
     /* never visible - this is used in jQuery to check the current MQ */
-    content: 'desktop';
+    content: "desktop";
   }
 }
 
@@ -256,11 +263,9 @@ Main Components
   color: var(--vermelho);
 }
 
-
 .cd-timeline-navigation a.next {
   right: 0;
 }
-
 
 .no-touch .cd-timeline-navigation a:hover {
   border-color: #7b9d6f;
@@ -341,7 +346,7 @@ Main Components
   animation-direction: reverse;
 }
 
-.cd-horizontal-timeline .events-content li>* {
+.cd-horizontal-timeline .events-content li > * {
   max-width: 800px;
   margin: 0 auto;
 }
@@ -362,7 +367,7 @@ Main Components
 }
 
 .cd-horizontal-timeline .events-content em::before {
-  content: '- ';
+  content: "- ";
 }
 
 .cd-horizontal-timeline .events-content p {
@@ -423,7 +428,6 @@ Main Components
 }
 
 @media screen and (max-width: 520px) {
-
   .timeline-alinhamento {
     flex-direction: column;
   }
@@ -432,13 +436,13 @@ Main Components
     margin-top: 5rem;
     align-self: center;
     height: 350px;
-    width: 350px;
+    width: 100%;
+    object-fit: contain;
   }
 
   .cd-horizontal-timeline .events-content h2 {
     font-size: 1.4rem;
   }
-
 }
 
 @keyframes cd-enter-right {
