@@ -132,22 +132,22 @@
 }
 
 .imagem1 {
-    background: url("../img/icon/Modal/artist-white.jpg");
+    background: url("../img/icon/Modal/Icon.svg");
     background-size: cover;
 }
 
 .imagem2 {
-    background: url("../img/icon/Modal/artist-white.jpg");
+    background: url("../img/icon/Modal/Henrique.svg");
     background-size: cover;
 }
 
 .imagem3 {
-    background: url("../img/icon/Modal/artist-white.jpg");
+    background: url("../img/icon/Modal/Arquivar.svg");
     background-size: cover;
 }
 
 .imagem4 {
-    background: url("../img/icon/Modal/artist-white.jpg");
+    background: url("../img/icon/Modal/Net2Phone.svg");
     background-size: cover;
 }
 
