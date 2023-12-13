@@ -159,6 +159,14 @@
     background-size: cover;
 }
 
+.imagem6 {
+    height: 100px;
+    width: 100px;
+    margin: 25px 39%;
+    background: url("../img/icon/Modal/Chamado.svg");
+    background-size: cover;
+}
+
 @media screen and (max-width: 520px) {
 
     .element {
