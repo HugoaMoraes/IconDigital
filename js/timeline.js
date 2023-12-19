@@ -449,7 +449,7 @@ jQuery(document).ready(function ($) {
     clearInterval(autoSlideTimer); // Cancela o temporizador atual
     autoSlideTimer = setInterval(function () {
       showNewContent(timelineComponents, timelineTotWidth, "next");
-    }, 6000); // Temporizador em Segundos
+    }, 8000); // Temporizador em Segundos
   }
 
   setInterval(function() {
@@ -462,5 +462,5 @@ jQuery(document).ready(function ($) {
     }
   
     showNewContent(timelineComponents, timelineTotWidth, nextEvent);
-  }, 6000); // Chame a função a cada 6 segundos (altere o valor conforme necessário)
+  }, 9000); // Chame a função a cada 6 segundos (altere o valor conforme necessário)
 });
