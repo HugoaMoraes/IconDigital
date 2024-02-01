@@ -39,6 +39,9 @@ html {
 
 /* -----------------------NEW---------------------------------- */
 
+.map-iframe{
+  line-height: 0 !important;
+}
 
 .wpp {
   position: fixed;
